@@ -1,5 +1,7 @@
 # South African Financial, Tax and Market Reference Data (TradeAnswers)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24361562.svg)](https://doi.org/10.5281/zenodo.24361562)
+
 Reference tables on South African tax, exchange control, interest rates, the JSE, payments and financial regulation, compiled by TradeAnswers (tradeanswers.co.za) from official sources such as SARS, the South African Reserve Bank, the FSCA, National Treasury, Statistics South Africa and the JSE. Each table links to the TradeAnswers page that explains it, lists its sources and shows the date its figures were last checked.
 
 - **Publisher:** TradeAnswers, https://www.tradeanswers.co.za
@@ -9,7 +11,7 @@ Reference tables on South African tax, exchange control, interest rates, the JSE
 
 ## How to cite
 
-TradeAnswers (2026). *South African Financial, Tax and Market Reference Data*. https://www.tradeanswers.co.za/data-reference.html
+TradeAnswers (2026). *South African Financial, Tax and Market Reference Data*. Zenodo. https://doi.org/10.5281/zenodo.24361562
 
 When you use a single table, please also link to its source page listed below.
 
