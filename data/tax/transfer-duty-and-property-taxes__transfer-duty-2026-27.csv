@@ -1,0 +1,7 @@
+Property value,Duty
+"R0 to R1,210,000",0%
+"R1,210,001 to R1,663,800","3% of the value above R1,210,000"
+"R1,663,801 to R2,329,300","R13,614 plus 6% above R1,663,800"
+"R2,329,301 to R2,994,800","R53,544 plus 8% above R2,329,300"
+"R2,994,801 to R13,310,000","R106,784 plus 11% above R2,994,800"
+"Above R13,310,000","R1,241,456 plus 13% above R13,310,000"

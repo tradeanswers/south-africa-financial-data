@@ -1,0 +1,7143 @@
+{
+ "name": "tradeanswers-south-africa-financial-data",
+ "title": "South African Financial, Tax and Market Reference Data (TradeAnswers)",
+ "licenses": [
+  {
+   "name": "CC-BY-4.0",
+   "path": "https://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "homepage": "https://www.tradeanswers.co.za/data-reference.html",
+ "resources": [
+  {
+   "name": "annual-cost-of-trading-south-africa-annual-cost-by-trader-profile-2026",
+   "path": "data/markets-and-studies/annual-cost-of-trading-south-africa__annual-cost-by-trader-profile-2026.csv",
+   "title": "The Annual Cost of Trading in South Africa: 2026 Study: Annual cost by trader profile, 2026",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "The Annual Cost of Trading in South Africa: 2026 Study",
+     "path": "https://www.tradeanswers.co.za/annual-cost-of-trading-south-africa.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Profile",
+      "type": "string"
+     },
+     {
+      "name": "What they do",
+      "type": "string"
+     },
+     {
+      "name": "Account or amount",
+      "type": "string"
+     },
+     {
+      "name": "Annual cost",
+      "type": "string"
+     },
+     {
+      "name": "Share of account",
+      "type": "string"
+     },
+     {
+      "name": "Where the cost comes from",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "annual-cost-of-trading-south-africa-assumptions-used-in-this-study",
+   "path": "data/markets-and-studies/annual-cost-of-trading-south-africa__assumptions-used-in-this-study.csv",
+   "title": "The Annual Cost of Trading in South Africa: 2026 Study: Assumptions used in this study",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "The Annual Cost of Trading in South Africa: 2026 Study",
+     "path": "https://www.tradeanswers.co.za/annual-cost-of-trading-south-africa.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Item",
+      "type": "string"
+     },
+     {
+      "name": "Value used",
+      "type": "string"
+     },
+     {
+      "name": "Why",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "annual-cost-of-trading-south-africa-usd-zar-day-trader-annual-spread-cost-on-r50-000-at-0-1-lot",
+   "path": "data/markets-and-studies/annual-cost-of-trading-south-africa__usd-zar-day-trader-annual-spread-cost-on-r50-000-at-0-1-lot.csv",
+   "title": "The Annual Cost of Trading in South Africa: 2026 Study: USD/ZAR day trader: annual spread cost on R50,000 at 0.1 lot",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "The Annual Cost of Trading in South Africa: 2026 Study",
+     "path": "https://www.tradeanswers.co.za/annual-cost-of-trading-south-africa.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Spread (points)",
+      "type": "string"
+     },
+     {
+      "name": "Round trips a day",
+      "type": "string"
+     },
+     {
+      "name": "Annual cost",
+      "type": "string"
+     },
+     {
+      "name": "Share of account",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "bracket-creep-south-africa-bracket-thresholds-actual-inflation-adjusted-and-the-next-ye",
+   "path": "data/tax/bracket-creep-south-africa__bracket-thresholds-actual-inflation-adjusted-and-the-next-ye.csv",
+   "title": "Bracket Creep in South Africa: What the 2025/26 Tax Freeze Cost Taxpayers: Bracket thresholds: actual, inflation-adjusted and the next year",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Bracket Creep in South Africa: What the 2025/26 Tax Freeze Cost Taxpayers",
+     "path": "https://www.tradeanswers.co.za/bracket-creep-south-africa.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Bracket starts at",
+      "type": "string"
+     },
+     {
+      "name": "2025/26 (unchanged)",
+      "type": "string"
+     },
+     {
+      "name": "2025/26 raised 3.2%",
+      "type": "string"
+     },
+     {
+      "name": "2026/27 (actual)",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "bracket-creep-south-africa-extra-tax-from-the-2025-26-freeze-taxpayers-under-65",
+   "path": "data/tax/bracket-creep-south-africa__extra-tax-from-the-2025-26-freeze-taxpayers-under-65.csv",
+   "title": "Bracket Creep in South Africa: What the 2025/26 Tax Freeze Cost Taxpayers: Extra tax from the 2025/26 freeze, taxpayers under 65",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Bracket Creep in South Africa: What the 2025/26 Tax Freeze Cost Taxpayers",
+     "path": "https://www.tradeanswers.co.za/bracket-creep-south-africa.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Taxable income",
+      "type": "string"
+     },
+     {
+      "name": "Tax under the 2025/26 tables",
+      "type": "string"
+     },
+     {
+      "name": "Tax with tables raised 3.2%",
+      "type": "string"
+     },
+     {
+      "name": "Extra tax a year",
+      "type": "string"
+     },
+     {
+      "name": "Extra tax a month",
+      "type": "string"
+     },
+     {
+      "name": "Share of income",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "bracket-creep-south-africa-how-the-figures-were-calculated",
+   "path": "data/tax/bracket-creep-south-africa__how-the-figures-were-calculated.csv",
+   "title": "Bracket Creep in South Africa: What the 2025/26 Tax Freeze Cost Taxpayers: How the figures were calculated",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Bracket Creep in South Africa: What the 2025/26 Tax Freeze Cost Taxpayers",
+     "path": "https://www.tradeanswers.co.za/bracket-creep-south-africa.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Item",
+      "type": "string"
+     },
+     {
+      "name": "Value used",
+      "type": "string"
+     },
+     {
+      "name": "Source",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "broker-deposit-and-withdrawal-reference-methods-speed-and-cost",
+   "path": "data/regulation/broker-deposit-and-withdrawal-reference__methods-speed-and-cost.csv",
+   "title": "Broker Deposit and Withdrawal Reference: Methods, speed and cost",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Broker Deposit and Withdrawal Reference",
+     "path": "https://www.tradeanswers.co.za/broker-deposit-and-withdrawal-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Method",
+      "type": "string"
+     },
+     {
+      "name": "Deposit speed",
+      "type": "string"
+     },
+     {
+      "name": "Withdrawal speed",
+      "type": "string"
+     },
+     {
+      "name": "Typical cost",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "broker-deposit-and-withdrawal-reference-the-rules-that-catch-people-out",
+   "path": "data/regulation/broker-deposit-and-withdrawal-reference__the-rules-that-catch-people-out.csv",
+   "title": "Broker Deposit and Withdrawal Reference: The rules that catch people out",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Broker Deposit and Withdrawal Reference",
+     "path": "https://www.tradeanswers.co.za/broker-deposit-and-withdrawal-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Rule",
+      "type": "string"
+     },
+     {
+      "name": "Why it exists",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "broker-deposit-and-withdrawal-reference-what-to-check-before-funding",
+   "path": "data/regulation/broker-deposit-and-withdrawal-reference__what-to-check-before-funding.csv",
+   "title": "Broker Deposit and Withdrawal Reference: What to check before funding",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Broker Deposit and Withdrawal Reference",
+     "path": "https://www.tradeanswers.co.za/broker-deposit-and-withdrawal-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Check",
+      "type": "string"
+     },
+     {
+      "name": "Why",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "capital-gains-tax-rates-and-exclusions-exclusions",
+   "path": "data/tax/capital-gains-tax-rates-and-exclusions__exclusions.csv",
+   "title": "Capital Gains Tax Rates and Exclusions: Exclusions",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Capital Gains Tax Rates and Exclusions",
+     "path": "https://www.tradeanswers.co.za/capital-gains-tax-rates-and-exclusions.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Exclusion",
+      "type": "string"
+     },
+     {
+      "name": "Amount",
+      "type": "string"
+     },
+     {
+      "name": "Applies to",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "capital-gains-tax-rates-and-exclusions-inclusion-rates-and-exclusions-across-recent-years",
+   "path": "data/tax/capital-gains-tax-rates-and-exclusions__inclusion-rates-and-exclusions-across-recent-years.csv",
+   "title": "Capital Gains Tax Rates and Exclusions: Inclusion rates and exclusions across recent years",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Capital Gains Tax Rates and Exclusions",
+     "path": "https://www.tradeanswers.co.za/capital-gains-tax-rates-and-exclusions.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Year",
+      "type": "string"
+     },
+     {
+      "name": "Individual inclusion",
+      "type": "string"
+     },
+     {
+      "name": "Company inclusion",
+      "type": "string"
+     },
+     {
+      "name": "Annual exclusion",
+      "type": "string"
+     },
+     {
+      "name": "Maximum effective, individual",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "capital-gains-tax-rates-and-exclusions-inclusion-rates-and-exclusions-over-recent-years",
+   "path": "data/tax/capital-gains-tax-rates-and-exclusions__inclusion-rates-and-exclusions-over-recent-years.csv",
+   "title": "Capital Gains Tax Rates and Exclusions: Inclusion rates and exclusions over recent years",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Capital Gains Tax Rates and Exclusions",
+     "path": "https://www.tradeanswers.co.za/capital-gains-tax-rates-and-exclusions.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Year",
+      "type": "string"
+     },
+     {
+      "name": "Individual inclusion",
+      "type": "string"
+     },
+     {
+      "name": "Company inclusion",
+      "type": "string"
+     },
+     {
+      "name": "Annual exclusion",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "capital-gains-tax-rates-and-exclusions-inclusion-rates-and-the-effective-maximum",
+   "path": "data/tax/capital-gains-tax-rates-and-exclusions__inclusion-rates-and-the-effective-maximum.csv",
+   "title": "Capital Gains Tax Rates and Exclusions: Inclusion rates and the effective maximum",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Capital Gains Tax Rates and Exclusions",
+     "path": "https://www.tradeanswers.co.za/capital-gains-tax-rates-and-exclusions.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Taxpayer",
+      "type": "string"
+     },
+     {
+      "name": "Inclusion rate",
+      "type": "string"
+     },
+     {
+      "name": "Highest marginal rate",
+      "type": "string"
+     },
+     {
+      "name": "Effective CGT rate",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "capital-gains-tax-rates-and-exclusions-tax-on-a-gain-individual-after-the-annual-exclusion",
+   "path": "data/tax/capital-gains-tax-rates-and-exclusions__tax-on-a-gain-individual-after-the-annual-exclusion.csv",
+   "title": "Capital Gains Tax Rates and Exclusions: Tax on a gain, individual, after the annual exclusion",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Capital Gains Tax Rates and Exclusions",
+     "path": "https://www.tradeanswers.co.za/capital-gains-tax-rates-and-exclusions.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Gain",
+      "type": "string"
+     },
+     {
+      "name": "Included in income",
+      "type": "string"
+     },
+     {
+      "name": "At 26% marginal",
+      "type": "string"
+     },
+     {
+      "name": "At 36% marginal",
+      "type": "string"
+     },
+     {
+      "name": "At 45% marginal",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "card-and-cross-border-payment-fees-card-against-transfer-on-a-r20-000-payment",
+   "path": "data/banking-and-payments/card-and-cross-border-payment-fees__card-against-transfer-on-a-r20-000-payment.csv",
+   "title": "Card and Cross-Border Payment Fees: Card against transfer, on a R20,000 payment",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Card and Cross-Border Payment Fees",
+     "path": "https://www.tradeanswers.co.za/card-and-cross-border-payment-fees.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Route",
+      "type": "string"
+     },
+     {
+      "name": "Approximate cost",
+      "type": "string"
+     },
+     {
+      "name": "Speed",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "card-and-cross-border-payment-fees-dynamic-currency-conversion",
+   "path": "data/banking-and-payments/card-and-cross-border-payment-fees__dynamic-currency-conversion.csv",
+   "title": "Card and Cross-Border Payment Fees: Dynamic currency conversion",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Card and Cross-Border Payment Fees",
+     "path": "https://www.tradeanswers.co.za/card-and-cross-border-payment-fees.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Item",
+      "type": "string"
+     },
+     {
+      "name": "Detail",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "card-and-cross-border-payment-fees-what-a-foreign-card-transaction-costs",
+   "path": "data/banking-and-payments/card-and-cross-border-payment-fees__what-a-foreign-card-transaction-costs.csv",
+   "title": "Card and Cross-Border Payment Fees: What a foreign card transaction costs",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Card and Cross-Border Payment Fees",
+     "path": "https://www.tradeanswers.co.za/card-and-cross-border-payment-fees.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Component",
+      "type": "string"
+     },
+     {
+      "name": "Typical level",
+      "type": "string"
+     },
+     {
+      "name": "Charged by",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "company-tax-rates-reference-small-business-corporation-sliding-scale",
+   "path": "data/tax/company-tax-rates-reference__small-business-corporation-sliding-scale.csv",
+   "title": "Company Tax Rates Reference: Small business corporation sliding scale",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Company Tax Rates Reference",
+     "path": "https://www.tradeanswers.co.za/company-tax-rates-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Taxable income",
+      "type": "string"
+     },
+     {
+      "name": "Rate",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "company-tax-rates-reference-the-main-rates",
+   "path": "data/tax/company-tax-rates-reference__the-main-rates.csv",
+   "title": "Company Tax Rates Reference: The main rates",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Company Tax Rates Reference",
+     "path": "https://www.tradeanswers.co.za/company-tax-rates-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Entity",
+      "type": "string"
+     },
+     {
+      "name": "Rate",
+      "type": "string"
+     },
+     {
+      "name": "Note",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "company-tax-rates-reference-what-a-trading-company-actually-pays",
+   "path": "data/tax/company-tax-rates-reference__what-a-trading-company-actually-pays.csv",
+   "title": "Company Tax Rates Reference: What a trading company actually pays",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Company Tax Rates Reference",
+     "path": "https://www.tradeanswers.co.za/company-tax-rates-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Profit",
+      "type": "string"
+     },
+     {
+      "name": "Company at 27%",
+      "type": "string"
+     },
+     {
+      "name": "Then dividends tax at 20%",
+      "type": "string"
+     },
+     {
+      "name": "Total",
+      "type": "string"
+     },
+     {
+      "name": "Effective rate",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "crypto-asset-regulation-reference-how-sars-treats-it",
+   "path": "data/regulation/crypto-asset-regulation-reference__how-sars-treats-it.csv",
+   "title": "Crypto Asset Regulation Reference: How SARS treats it",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Crypto Asset Regulation Reference",
+     "path": "https://www.tradeanswers.co.za/crypto-asset-regulation-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Activity",
+      "type": "string"
+     },
+     {
+      "name": "Treatment",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "crypto-asset-regulation-reference-the-licence",
+   "path": "data/regulation/crypto-asset-regulation-reference__the-licence.csv",
+   "title": "Crypto Asset Regulation Reference: The licence",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Crypto Asset Regulation Reference",
+     "path": "https://www.tradeanswers.co.za/crypto-asset-regulation-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Item",
+      "type": "string"
+     },
+     {
+      "name": "Detail",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "crypto-asset-regulation-reference-who-regulates-what",
+   "path": "data/regulation/crypto-asset-regulation-reference__who-regulates-what.csv",
+   "title": "Crypto Asset Regulation Reference: Who regulates what",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Crypto Asset Regulation Reference",
+     "path": "https://www.tradeanswers.co.za/crypto-asset-regulation-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Body",
+      "type": "string"
+     },
+     {
+      "name": "Covers",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "crypto-exchange-fees-south-africa-cheapest-route-by-use-case",
+   "path": "data/banking-and-payments/crypto-exchange-fees-south-africa__cheapest-route-by-use-case.csv",
+   "title": "Crypto Exchange Fees in South Africa: Cheapest route by use case",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Crypto Exchange Fees in South Africa",
+     "path": "https://www.tradeanswers.co.za/crypto-exchange-fees-south-africa.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "If you",
+      "type": "string"
+     },
+     {
+      "name": "Cheapest published route",
+      "type": "string"
+     },
+     {
+      "name": "Why",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "crypto-exchange-fees-south-africa-published-fee-schedules-entry-tier-checked-13-october-2026",
+   "path": "data/banking-and-payments/crypto-exchange-fees-south-africa__published-fee-schedules-entry-tier-checked-13-october-2026.csv",
+   "title": "Crypto Exchange Fees in South Africa: Published fee schedules, entry tier, checked 13 October 2026",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Crypto Exchange Fees in South Africa",
+     "path": "https://www.tradeanswers.co.za/crypto-exchange-fees-south-africa.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Exchange",
+      "type": "string"
+     },
+     {
+      "name": "Status",
+      "type": "string"
+     },
+     {
+      "name": "Maker / taker (order book)",
+      "type": "string"
+     },
+     {
+      "name": "Instant buy / sell",
+      "type": "string"
+     },
+     {
+      "name": "Rand deposit",
+      "type": "string"
+     },
+     {
+      "name": "Rand withdrawal",
+      "type": "string"
+     },
+     {
+      "name": "Crypto withdrawal",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "crypto-exchange-fees-south-africa-what-a-trade-costs-in-rand-entry-tier",
+   "path": "data/banking-and-payments/crypto-exchange-fees-south-africa__what-a-trade-costs-in-rand-entry-tier.csv",
+   "title": "Crypto Exchange Fees in South Africa: What a trade costs in rand, entry tier",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Crypto Exchange Fees in South Africa",
+     "path": "https://www.tradeanswers.co.za/crypto-exchange-fees-south-africa.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Route",
+      "type": "string"
+     },
+     {
+      "name": "Rate",
+      "type": "string"
+     },
+     {
+      "name": "On R10,000",
+      "type": "string"
+     },
+     {
+      "name": "On R100,000",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "crypto-payment-rails-reference-cost-and-speed-against-banking-rails",
+   "path": "data/banking-and-payments/crypto-payment-rails-reference__cost-and-speed-against-banking-rails.csv",
+   "title": "Crypto Payment Rails Reference: Cost and speed against banking rails",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Crypto Payment Rails Reference",
+     "path": "https://www.tradeanswers.co.za/crypto-payment-rails-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Route",
+      "type": "string"
+     },
+     {
+      "name": "Typical cost",
+      "type": "string"
+     },
+     {
+      "name": "Typical speed",
+      "type": "string"
+     },
+     {
+      "name": "Reversible",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "crypto-payment-rails-reference-what-the-rules-say",
+   "path": "data/banking-and-payments/crypto-payment-rails-reference__what-the-rules-say.csv",
+   "title": "Crypto Payment Rails Reference: What the rules say",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Crypto Payment Rails Reference",
+     "path": "https://www.tradeanswers.co.za/crypto-payment-rails-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Question",
+      "type": "string"
+     },
+     {
+      "name": "Position",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "crypto-payment-rails-reference-where-the-costs-hide",
+   "path": "data/banking-and-payments/crypto-payment-rails-reference__where-the-costs-hide.csv",
+   "title": "Crypto Payment Rails Reference: Where the costs hide",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Crypto Payment Rails Reference",
+     "path": "https://www.tradeanswers.co.za/crypto-payment-rails-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Item",
+      "type": "string"
+     },
+     {
+      "name": "Note",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "dividend-withholding-tax-by-country-south-african-dividends",
+   "path": "data/tax/dividend-withholding-tax-by-country__south-african-dividends.csv",
+   "title": "Dividend Withholding Tax by Country: South African dividends",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Dividend Withholding Tax by Country",
+     "path": "https://www.tradeanswers.co.za/dividend-withholding-tax-by-country.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Recipient",
+      "type": "string"
+     },
+     {
+      "name": "Rate",
+      "type": "string"
+     },
+     {
+      "name": "Note",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "dividend-withholding-tax-by-country-the-south-african-rate-and-the-regime-before-it",
+   "path": "data/tax/dividend-withholding-tax-by-country__the-south-african-rate-and-the-regime-before-it.csv",
+   "title": "Dividend Withholding Tax by Country: The South African rate and the regime before it",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Dividend Withholding Tax by Country",
+     "path": "https://www.tradeanswers.co.za/dividend-withholding-tax-by-country.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "From",
+      "type": "string"
+     },
+     {
+      "name": "Mechanism",
+      "type": "string"
+     },
+     {
+      "name": "Rate",
+      "type": "string"
+     },
+     {
+      "name": "Who paid it",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "dividend-withholding-tax-by-country-the-south-african-rate-over-time",
+   "path": "data/tax/dividend-withholding-tax-by-country__the-south-african-rate-over-time.csv",
+   "title": "Dividend Withholding Tax by Country: The South African rate over time",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Dividend Withholding Tax by Country",
+     "path": "https://www.tradeanswers.co.za/dividend-withholding-tax-by-country.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "From",
+      "type": "string"
+     },
+     {
+      "name": "Rate",
+      "type": "string"
+     },
+     {
+      "name": "Note",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "dividend-withholding-tax-by-country-treaty-rates-on-foreign-dividends-paid-to-a-south-african-re",
+   "path": "data/tax/dividend-withholding-tax-by-country__treaty-rates-on-foreign-dividends-paid-to-a-south-african-re.csv",
+   "title": "Dividend Withholding Tax by Country: Treaty rates on foreign dividends paid to a South African resident",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Dividend Withholding Tax by Country",
+     "path": "https://www.tradeanswers.co.za/dividend-withholding-tax-by-country.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Source country",
+      "type": "string"
+     },
+     {
+      "name": "Statutory rate",
+      "type": "string"
+     },
+     {
+      "name": "Treaty rate with South Africa",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "dividend-withholding-tax-by-country-what-reaches-you-from-a-r10-000-gross-dividend",
+   "path": "data/tax/dividend-withholding-tax-by-country__what-reaches-you-from-a-r10-000-gross-dividend.csv",
+   "title": "Dividend Withholding Tax by Country: What reaches you from a R10,000 gross dividend",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Dividend Withholding Tax by Country",
+     "path": "https://www.tradeanswers.co.za/dividend-withholding-tax-by-country.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Source",
+      "type": "string"
+     },
+     {
+      "name": "Withheld",
+      "type": "string"
+     },
+     {
+      "name": "Net to you",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "estate-duty-and-donations-tax-the-rates",
+   "path": "data/tax/estate-duty-and-donations-tax__the-rates.csv",
+   "title": "Estate Duty and Donations Tax: The rates",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Estate Duty and Donations Tax",
+     "path": "https://www.tradeanswers.co.za/estate-duty-and-donations-tax.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Tax",
+      "type": "string"
+     },
+     {
+      "name": "First R30 million",
+      "type": "string"
+     },
+     {
+      "name": "Above R30 million",
+      "type": "string"
+     },
+     {
+      "name": "Threshold",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "estate-duty-and-donations-tax-what-changed-in-2026",
+   "path": "data/tax/estate-duty-and-donations-tax__what-changed-in-2026.csv",
+   "title": "Estate Duty and Donations Tax: What changed in 2026",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Estate Duty and Donations Tax",
+     "path": "https://www.tradeanswers.co.za/estate-duty-and-donations-tax.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Item",
+      "type": "string"
+     },
+     {
+      "name": "2026/27",
+      "type": "string"
+     },
+     {
+      "name": "2025/26",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "estate-duty-and-donations-tax-what-is-deductible-from-an-estate",
+   "path": "data/tax/estate-duty-and-donations-tax__what-is-deductible-from-an-estate.csv",
+   "title": "Estate Duty and Donations Tax: What is deductible from an estate",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Estate Duty and Donations Tax",
+     "path": "https://www.tradeanswers.co.za/estate-duty-and-donations-tax.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Deduction",
+      "type": "string"
+     },
+     {
+      "name": "Effect",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "exchange-control-allowances-how-the-single-discretionary-allowance-has-moved",
+   "path": "data/regulation/exchange-control-allowances__how-the-single-discretionary-allowance-has-moved.csv",
+   "title": "Exchange Control Allowances: How the single discretionary allowance has moved",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Exchange Control Allowances",
+     "path": "https://www.tradeanswers.co.za/exchange-control-allowances.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "From",
+      "type": "string"
+     },
+     {
+      "name": "SDA limit",
+      "type": "string"
+     },
+     {
+      "name": "FIA limit",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "exchange-control-allowances-the-offshore-allowances-over-time",
+   "path": "data/regulation/exchange-control-allowances__the-offshore-allowances-over-time.csv",
+   "title": "Exchange Control Allowances: The offshore allowances over time",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Exchange Control Allowances",
+     "path": "https://www.tradeanswers.co.za/exchange-control-allowances.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "From",
+      "type": "string"
+     },
+     {
+      "name": "Single discretionary",
+      "type": "string"
+     },
+     {
+      "name": "Foreign investment",
+      "type": "string"
+     },
+     {
+      "name": "Combined",
+      "type": "string"
+     },
+     {
+      "name": "What changed",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "exchange-control-allowances-the-two-allowances",
+   "path": "data/regulation/exchange-control-allowances__the-two-allowances.csv",
+   "title": "Exchange Control Allowances: The two allowances",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Exchange Control Allowances",
+     "path": "https://www.tradeanswers.co.za/exchange-control-allowances.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Allowance",
+      "type": "string"
+     },
+     {
+      "name": "Annual limit",
+      "type": "string"
+     },
+     {
+      "name": "Who qualifies",
+      "type": "string"
+     },
+     {
+      "name": "Clearance needed",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "exchange-control-allowances-what-each-allowance-needs",
+   "path": "data/regulation/exchange-control-allowances__what-each-allowance-needs.csv",
+   "title": "Exchange Control Allowances: What each allowance needs",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Exchange Control Allowances",
+     "path": "https://www.tradeanswers.co.za/exchange-control-allowances.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Amount in a year",
+      "type": "string"
+     },
+     {
+      "name": "Allowance used",
+      "type": "string"
+     },
+     {
+      "name": "Paperwork",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "exchange-control-allowances-what-the-single-discretionary-allowance-covers",
+   "path": "data/regulation/exchange-control-allowances__what-the-single-discretionary-allowance-covers.csv",
+   "title": "Exchange Control Allowances: What the single discretionary allowance covers",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Exchange Control Allowances",
+     "path": "https://www.tradeanswers.co.za/exchange-control-allowances.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Use",
+      "type": "string"
+     },
+     {
+      "name": "Counts against the SDA",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "fica-requirements-reference-risk-based-due-diligence",
+   "path": "data/regulation/fica-requirements-reference__risk-based-due-diligence.csv",
+   "title": "FICA Requirements Reference: Risk-based due diligence",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "FICA Requirements Reference",
+     "path": "https://www.tradeanswers.co.za/fica-requirements-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Client risk",
+      "type": "string"
+     },
+     {
+      "name": "What is required",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "fica-requirements-reference-what-a-broker-must-collect",
+   "path": "data/regulation/fica-requirements-reference__what-a-broker-must-collect.csv",
+   "title": "FICA Requirements Reference: What a broker must collect",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "FICA Requirements Reference",
+     "path": "https://www.tradeanswers.co.za/fica-requirements-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Document",
+      "type": "string"
+     },
+     {
+      "name": "Accepted",
+      "type": "string"
+     },
+     {
+      "name": "Age limit",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "fica-requirements-reference-what-the-institution-must-report",
+   "path": "data/regulation/fica-requirements-reference__what-the-institution-must-report.csv",
+   "title": "FICA Requirements Reference: What the institution must report",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "FICA Requirements Reference",
+     "path": "https://www.tradeanswers.co.za/fica-requirements-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Report",
+      "type": "string"
+     },
+     {
+      "name": "Trigger",
+      "type": "string"
+     },
+     {
+      "name": "To",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "financial-services-tribunal-reference-how-it-works",
+   "path": "data/regulation/financial-services-tribunal-reference__how-it-works.csv",
+   "title": "Financial Services Tribunal Reference: How it works",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Financial Services Tribunal Reference",
+     "path": "https://www.tradeanswers.co.za/financial-services-tribunal-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Item",
+      "type": "string"
+     },
+     {
+      "name": "Rule",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "financial-services-tribunal-reference-what-can-be-taken-there",
+   "path": "data/regulation/financial-services-tribunal-reference__what-can-be-taken-there.csv",
+   "title": "Financial Services Tribunal Reference: What can be taken there",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Financial Services Tribunal Reference",
+     "path": "https://www.tradeanswers.co.za/financial-services-tribunal-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Decision",
+      "type": "string"
+     },
+     {
+      "name": "By",
+      "type": "string"
+     },
+     {
+      "name": "Reviewable",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "financial-services-tribunal-reference-what-it-can-decide",
+   "path": "data/regulation/financial-services-tribunal-reference__what-it-can-decide.csv",
+   "title": "Financial Services Tribunal Reference: What it can decide",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Financial Services Tribunal Reference",
+     "path": "https://www.tradeanswers.co.za/financial-services-tribunal-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Outcome",
+      "type": "string"
+     },
+     {
+      "name": "Effect",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "forex-trading-south-africa-statistics-every-figure-on-this-page-with-its-reference-period-and-sour",
+   "path": "data/markets-and-studies/forex-trading-south-africa-statistics__every-figure-on-this-page-with-its-reference-period-and-sour.csv",
+   "title": "Forex & CFD Trading in South Africa: Statistics 2026: Every figure on this page, with its reference period and source",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Forex & CFD Trading in South Africa: Statistics 2026",
+     "path": "https://www.tradeanswers.co.za/forex-trading-south-africa-statistics.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "statistic",
+      "type": "string"
+     },
+     {
+      "name": "value",
+      "type": "string"
+     },
+     {
+      "name": "reference_period",
+      "type": "string"
+     },
+     {
+      "name": "classification",
+      "type": "string"
+     },
+     {
+      "name": "source_organisation",
+      "type": "string"
+     },
+     {
+      "name": "source_document",
+      "type": "string"
+     },
+     {
+      "name": "source_url",
+      "type": "string"
+     },
+     {
+      "name": "retrieved",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "forex-trading-south-africa-statistics-how-each-figure-on-this-page-was-produced",
+   "path": "data/markets-and-studies/forex-trading-south-africa-statistics__how-each-figure-on-this-page-was-produced.csv",
+   "title": "Forex & CFD Trading in South Africa: Statistics 2026: How each figure on this page was produced",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Forex & CFD Trading in South Africa: Statistics 2026",
+     "path": "https://www.tradeanswers.co.za/forex-trading-south-africa-statistics.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "label",
+      "type": "string"
+     },
+     {
+      "name": "meaning",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "forex-trading-south-africa-statistics-table-1",
+   "path": "data/markets-and-studies/forex-trading-south-africa-statistics__table-1.csv",
+   "title": "Forex & CFD Trading in South Africa: Statistics 2026: table 1",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Forex & CFD Trading in South Africa: Statistics 2026",
+     "path": "https://www.tradeanswers.co.za/forex-trading-south-africa-statistics.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "# Source: TradeAnswers, https://www.tradeanswers.co.za/forex-trading-south-africa-statistics.html",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "forex-transfer-costs-reference-what-r100-000-costs-by-route",
+   "path": "data/banking-and-payments/forex-transfer-costs-reference__what-r100-000-costs-by-route.csv",
+   "title": "Forex Transfer Costs Reference: What R100,000 costs by route",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Forex Transfer Costs Reference",
+     "path": "https://www.tradeanswers.co.za/forex-transfer-costs-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Route",
+      "type": "string"
+     },
+     {
+      "name": "Rate margin",
+      "type": "string"
+     },
+     {
+      "name": "Fees",
+      "type": "string"
+     },
+     {
+      "name": "Total cost",
+      "type": "string"
+     },
+     {
+      "name": "Received at R16.40 mid",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "forex-transfer-costs-reference-what-to-ask-before-you-transfer",
+   "path": "data/banking-and-payments/forex-transfer-costs-reference__what-to-ask-before-you-transfer.csv",
+   "title": "Forex Transfer Costs Reference: What to ask before you transfer",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Forex Transfer Costs Reference",
+     "path": "https://www.tradeanswers.co.za/forex-transfer-costs-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Question",
+      "type": "string"
+     },
+     {
+      "name": "Why it matters",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "forex-transfer-costs-reference-where-the-cost-actually-sits",
+   "path": "data/banking-and-payments/forex-transfer-costs-reference__where-the-cost-actually-sits.csv",
+   "title": "Forex Transfer Costs Reference: Where the cost actually sits",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Forex Transfer Costs Reference",
+     "path": "https://www.tradeanswers.co.za/forex-transfer-costs-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Component",
+      "type": "string"
+     },
+     {
+      "name": "Typical level",
+      "type": "string"
+     },
+     {
+      "name": "Visible on the statement",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "fsca-enforcement-and-penalties-scale-of-recent-enforcement",
+   "path": "data/regulation/fsca-enforcement-and-penalties__scale-of-recent-enforcement.csv",
+   "title": "FSCA Enforcement and Penalties: Scale of recent enforcement",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "FSCA Enforcement and Penalties",
+     "path": "https://www.tradeanswers.co.za/fsca-enforcement-and-penalties.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Period",
+      "type": "string"
+     },
+     {
+      "name": "Penalties imposed",
+      "type": "string"
+     },
+     {
+      "name": "Note",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "fsca-enforcement-and-penalties-what-a-trader-should-check",
+   "path": "data/regulation/fsca-enforcement-and-penalties__what-a-trader-should-check.csv",
+   "title": "FSCA Enforcement and Penalties: What a trader should check",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "FSCA Enforcement and Penalties",
+     "path": "https://www.tradeanswers.co.za/fsca-enforcement-and-penalties.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Check",
+      "type": "string"
+     },
+     {
+      "name": "Where",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "fsca-enforcement-and-penalties-what-the-fsca-can-do",
+   "path": "data/regulation/fsca-enforcement-and-penalties__what-the-fsca-can-do.csv",
+   "title": "FSCA Enforcement and Penalties: What the FSCA can do",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "FSCA Enforcement and Penalties",
+     "path": "https://www.tradeanswers.co.za/fsca-enforcement-and-penalties.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Action",
+      "type": "string"
+     },
+     {
+      "name": "Effect",
+      "type": "string"
+     },
+     {
+      "name": "Appealable",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "fsca-fsp-licence-categories-the-categories",
+   "path": "data/regulation/fsca-fsp-licence-categories__the-categories.csv",
+   "title": "FSCA FSP Licence Categories: The categories",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "FSCA FSP Licence Categories",
+     "path": "https://www.tradeanswers.co.za/fsca-fsp-licence-categories.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Category",
+      "type": "string"
+     },
+     {
+      "name": "What it permits",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "fsca-fsp-licence-categories-what-a-trader-should-check",
+   "path": "data/regulation/fsca-fsp-licence-categories__what-a-trader-should-check.csv",
+   "title": "FSCA FSP Licence Categories: What a trader should check",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "FSCA FSP Licence Categories",
+     "path": "https://www.tradeanswers.co.za/fsca-fsp-licence-categories.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Check",
+      "type": "string"
+     },
+     {
+      "name": "Why",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "fsca-fsp-licence-categories-which-category-covers-what-a-trader-meets",
+   "path": "data/regulation/fsca-fsp-licence-categories__which-category-covers-what-a-trader-meets.csv",
+   "title": "FSCA FSP Licence Categories: Which category covers what a trader meets",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "FSCA FSP Licence Categories",
+     "path": "https://www.tradeanswers.co.za/fsca-fsp-licence-categories.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "What is offered to you",
+      "type": "string"
+     },
+     {
+      "name": "Category required",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "global-market-hours-and-holidays-exchange-hours-in-south-african-time",
+   "path": "data/markets-and-studies/global-market-hours-and-holidays__exchange-hours-in-south-african-time.csv",
+   "title": "Global Market Hours and Holidays: Exchange hours in South African time",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Global Market Hours and Holidays",
+     "path": "https://www.tradeanswers.co.za/global-market-hours-and-holidays.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Exchange",
+      "type": "string"
+     },
+     {
+      "name": "Opens",
+      "type": "string"
+     },
+     {
+      "name": "Closes",
+      "type": "string"
+     },
+     {
+      "name": "Note",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "global-market-hours-and-holidays-holidays-that-close-the-major-markets",
+   "path": "data/markets-and-studies/global-market-hours-and-holidays__holidays-that-close-the-major-markets.csv",
+   "title": "Global Market Hours and Holidays: Holidays that close the major markets",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Global Market Hours and Holidays",
+     "path": "https://www.tradeanswers.co.za/global-market-hours-and-holidays.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Market",
+      "type": "string"
+     },
+     {
+      "name": "Typical closures",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "global-market-hours-and-holidays-what-thin-liquidity-does",
+   "path": "data/markets-and-studies/global-market-hours-and-holidays__what-thin-liquidity-does.csv",
+   "title": "Global Market Hours and Holidays: What thin liquidity does",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Global Market Hours and Holidays",
+     "path": "https://www.tradeanswers.co.za/global-market-hours-and-holidays.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Condition",
+      "type": "string"
+     },
+     {
+      "name": "Effect",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "home-loan-repayments-by-amount-table-1",
+   "path": "data/banking-and-payments/home-loan-repayments-by-amount__table-1.csv",
+   "title": "Home Loan Repayments by Amount, 2026: table 1",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Home Loan Repayments by Amount, 2026",
+     "path": "https://www.tradeanswers.co.za/home-loan-repayments-by-amount.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "table",
+      "type": "string"
+     },
+     {
+      "name": "source",
+      "type": "string"
+     },
+     {
+      "name": "checked",
+      "type": "string"
+     },
+     {
+      "name": "col1",
+      "type": "string"
+     },
+     {
+      "name": "col2",
+      "type": "string"
+     },
+     {
+      "name": "col3",
+      "type": "string"
+     },
+     {
+      "name": "col4",
+      "type": "string"
+     },
+     {
+      "name": "col5",
+      "type": "string"
+     },
+     {
+      "name": "col6",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "how-many-cfd-traders-lose-money-retail-cfd-accounts-losing-money-by-broker-2026",
+   "path": "data/markets-and-studies/how-many-cfd-traders-lose-money__retail-cfd-accounts-losing-money-by-broker-2026.csv",
+   "title": "How Many Retail CFD Traders Lose Money? What Brokers Disclose in 2026: Retail CFD accounts losing money, by broker, 2026",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "How Many Retail CFD Traders Lose Money? What Brokers Disclose in 2026",
+     "path": "https://www.tradeanswers.co.za/how-many-cfd-traders-lose-money.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Broker",
+      "type": "string"
+     },
+     {
+      "name": "Accounts losing money",
+      "type": "string"
+     },
+     {
+      "name": "Disclosure date",
+      "type": "string"
+     },
+     {
+      "name": "Source",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "how-many-cfd-traders-lose-money-summary",
+   "path": "data/markets-and-studies/how-many-cfd-traders-lose-money__summary.csv",
+   "title": "How Many Retail CFD Traders Lose Money? What Brokers Disclose in 2026: Summary",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "How Many Retail CFD Traders Lose Money? What Brokers Disclose in 2026",
+     "path": "https://www.tradeanswers.co.za/how-many-cfd-traders-lose-money.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Measure",
+      "type": "string"
+     },
+     {
+      "name": "Value",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "how-many-cfd-traders-lose-money-what-the-disclosure-measures",
+   "path": "data/markets-and-studies/how-many-cfd-traders-lose-money__what-the-disclosure-measures.csv",
+   "title": "How Many Retail CFD Traders Lose Money? What Brokers Disclose in 2026: What the disclosure measures",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "How Many Retail CFD Traders Lose Money? What Brokers Disclose in 2026",
+     "path": "https://www.tradeanswers.co.za/how-many-cfd-traders-lose-money.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Item",
+      "type": "string"
+     },
+     {
+      "name": "Rule",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "interest-and-dividend-exemptions-the-exemptions",
+   "path": "data/tax/interest-and-dividend-exemptions__the-exemptions.csv",
+   "title": "Interest and Dividend Exemptions: The exemptions",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Interest and Dividend Exemptions",
+     "path": "https://www.tradeanswers.co.za/interest-and-dividend-exemptions.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Item",
+      "type": "string"
+     },
+     {
+      "name": "2026/27",
+      "type": "string"
+     },
+     {
+      "name": "2025/26",
+      "type": "string"
+     },
+     {
+      "name": "Applies to",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "interest-and-dividend-exemptions-what-the-interest-exemption-is-worth",
+   "path": "data/tax/interest-and-dividend-exemptions__what-the-interest-exemption-is-worth.csv",
+   "title": "Interest and Dividend Exemptions: What the interest exemption is worth",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Interest and Dividend Exemptions",
+     "path": "https://www.tradeanswers.co.za/interest-and-dividend-exemptions.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Marginal rate",
+      "type": "string"
+     },
+     {
+      "name": "Exemption under 65",
+      "type": "string"
+     },
+     {
+      "name": "Tax saved",
+      "type": "string"
+     },
+     {
+      "name": "Exemption 65 and over",
+      "type": "string"
+     },
+     {
+      "name": "Tax saved",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "interest-and-dividend-exemptions-withholding-on-payments-to-non-residents",
+   "path": "data/tax/interest-and-dividend-exemptions__withholding-on-payments-to-non-residents.csv",
+   "title": "Interest and Dividend Exemptions: Withholding on payments to non-residents",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Interest and Dividend Exemptions",
+     "path": "https://www.tradeanswers.co.za/interest-and-dividend-exemptions.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Payment",
+      "type": "string"
+     },
+     {
+      "name": "Rate",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "jse-agricultural-commodity-futures-how-the-price-is-formed",
+   "path": "data/jse/jse-agricultural-commodity-futures__how-the-price-is-formed.csv",
+   "title": "JSE Agricultural Commodity Futures: How the price is formed",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "JSE Agricultural Commodity Futures",
+     "path": "https://www.tradeanswers.co.za/jse-agricultural-commodity-futures.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Situation",
+      "type": "string"
+     },
+     {
+      "name": "Price anchored to",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "jse-agricultural-commodity-futures-the-main-contracts",
+   "path": "data/jse/jse-agricultural-commodity-futures__the-main-contracts.csv",
+   "title": "JSE Agricultural Commodity Futures: The main contracts",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "JSE Agricultural Commodity Futures",
+     "path": "https://www.tradeanswers.co.za/jse-agricultural-commodity-futures.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Contract",
+      "type": "string"
+     },
+     {
+      "name": "Size",
+      "type": "string"
+     },
+     {
+      "name": "Quotation",
+      "type": "string"
+     },
+     {
+      "name": "Delivery",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "jse-agricultural-commodity-futures-what-moves-it",
+   "path": "data/jse/jse-agricultural-commodity-futures__what-moves-it.csv",
+   "title": "JSE Agricultural Commodity Futures: What moves it",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "JSE Agricultural Commodity Futures",
+     "path": "https://www.tradeanswers.co.za/jse-agricultural-commodity-futures.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Factor",
+      "type": "string"
+     },
+     {
+      "name": "Effect",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "jse-bond-market-reference-how-a-retail-investor-gets-exposure",
+   "path": "data/jse/jse-bond-market-reference__how-a-retail-investor-gets-exposure.csv",
+   "title": "JSE Bond Market Reference: How a retail investor gets exposure",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "JSE Bond Market Reference",
+     "path": "https://www.tradeanswers.co.za/jse-bond-market-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Route",
+      "type": "string"
+     },
+     {
+      "name": "Minimum",
+      "type": "string"
+     },
+     {
+      "name": "Liquidity",
+      "type": "string"
+     },
+     {
+      "name": "Note",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "jse-bond-market-reference-how-the-market-is-structured",
+   "path": "data/jse/jse-bond-market-reference__how-the-market-is-structured.csv",
+   "title": "JSE Bond Market Reference: How the market is structured",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "JSE Bond Market Reference",
+     "path": "https://www.tradeanswers.co.za/jse-bond-market-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Item",
+      "type": "string"
+     },
+     {
+      "name": "Detail",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "jse-bond-market-reference-the-conventions",
+   "path": "data/jse/jse-bond-market-reference__the-conventions.csv",
+   "title": "JSE Bond Market Reference: The conventions",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "JSE Bond Market Reference",
+     "path": "https://www.tradeanswers.co.za/jse-bond-market-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Term",
+      "type": "string"
+     },
+     {
+      "name": "Meaning",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "jse-derivatives-safex-reference-safex-against-an-offshore-cfd",
+   "path": "data/tax/jse-derivatives-safex-reference__safex-against-an-offshore-cfd.csv",
+   "title": "JSE Derivatives and SAFEX Reference: SAFEX against an offshore CFD",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "JSE Derivatives and SAFEX Reference",
+     "path": "https://www.tradeanswers.co.za/jse-derivatives-safex-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Feature",
+      "type": "string"
+     },
+     {
+      "name": "SAFEX",
+      "type": "string"
+     },
+     {
+      "name": "Offshore CFD",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "jse-derivatives-safex-reference-the-close-out-calendar",
+   "path": "data/tax/jse-derivatives-safex-reference__the-close-out-calendar.csv",
+   "title": "JSE Derivatives and SAFEX Reference: The close-out calendar",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "JSE Derivatives and SAFEX Reference",
+     "path": "https://www.tradeanswers.co.za/jse-derivatives-safex-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Item",
+      "type": "string"
+     },
+     {
+      "name": "Rule",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "jse-derivatives-safex-reference-the-main-contracts",
+   "path": "data/tax/jse-derivatives-safex-reference__the-main-contracts.csv",
+   "title": "JSE Derivatives and SAFEX Reference: The main contracts",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "JSE Derivatives and SAFEX Reference",
+     "path": "https://www.tradeanswers.co.za/jse-derivatives-safex-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Contract",
+      "type": "string"
+     },
+     {
+      "name": "Underlying",
+      "type": "string"
+     },
+     {
+      "name": "Contract size",
+      "type": "string"
+     },
+     {
+      "name": "Settlement",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "jse-etf-reference-tax-treatment",
+   "path": "data/jse/jse-etf-reference__tax-treatment.csv",
+   "title": "JSE ETF Reference: Tax treatment",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "JSE ETF Reference",
+     "path": "https://www.tradeanswers.co.za/jse-etf-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Item",
+      "type": "string"
+     },
+     {
+      "name": "Outside a wrapper",
+      "type": "string"
+     },
+     {
+      "name": "Inside a TFSA",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "jse-etf-reference-what-the-costs-actually-come-to",
+   "path": "data/jse/jse-etf-reference__what-the-costs-actually-come-to.csv",
+   "title": "JSE ETF Reference: What the costs actually come to",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "JSE ETF Reference",
+     "path": "https://www.tradeanswers.co.za/jse-etf-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Investment",
+      "type": "string"
+     },
+     {
+      "name": "At 0.15% TER",
+      "type": "string"
+     },
+     {
+      "name": "At 0.40%",
+      "type": "string"
+     },
+     {
+      "name": "At 0.70%",
+      "type": "string"
+     },
+     {
+      "name": "Over 20 years at 0.70% vs 0.15%",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "jse-etf-reference-what-the-main-categories-track",
+   "path": "data/jse/jse-etf-reference__what-the-main-categories-track.csv",
+   "title": "JSE ETF Reference: What the main categories track",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "JSE ETF Reference",
+     "path": "https://www.tradeanswers.co.za/jse-etf-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Category",
+      "type": "string"
+     },
+     {
+      "name": "Typical benchmark",
+      "type": "string"
+     },
+     {
+      "name": "Typical TER",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "jse-indices-reference-the-main-indices",
+   "path": "data/jse/jse-indices-reference__the-main-indices.csv",
+   "title": "JSE Indices Reference: The main indices",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "JSE Indices Reference",
+     "path": "https://www.tradeanswers.co.za/jse-indices-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Index",
+      "type": "string"
+     },
+     {
+      "name": "Code",
+      "type": "string"
+     },
+     {
+      "name": "What it measures",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "jse-indices-reference-which-index-a-fund-is-likely-to-track",
+   "path": "data/jse/jse-indices-reference__which-index-a-fund-is-likely-to-track.csv",
+   "title": "JSE Indices Reference: Which index a fund is likely to track",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "JSE Indices Reference",
+     "path": "https://www.tradeanswers.co.za/jse-indices-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Fund type",
+      "type": "string"
+     },
+     {
+      "name": "Usual benchmark",
+      "type": "string"
+     },
+     {
+      "name": "Why",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "jse-indices-reference-why-the-weighting-matters",
+   "path": "data/jse/jse-indices-reference__why-the-weighting-matters.csv",
+   "title": "JSE Indices Reference: Why the weighting matters",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "JSE Indices Reference",
+     "path": "https://www.tradeanswers.co.za/jse-indices-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Item",
+      "type": "string"
+     },
+     {
+      "name": "Detail",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "jse-listing-requirements-entry-requirements",
+   "path": "data/jse/jse-listing-requirements__entry-requirements.csv",
+   "title": "JSE Listing Requirements: Entry requirements",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "JSE Listing Requirements",
+     "path": "https://www.tradeanswers.co.za/jse-listing-requirements.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Requirement",
+      "type": "string"
+     },
+     {
+      "name": "Main Board",
+      "type": "string"
+     },
+     {
+      "name": "AltX",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "jse-listing-requirements-ongoing-obligations",
+   "path": "data/jse/jse-listing-requirements__ongoing-obligations.csv",
+   "title": "JSE Listing Requirements: Ongoing obligations",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "JSE Listing Requirements",
+     "path": "https://www.tradeanswers.co.za/jse-listing-requirements.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Obligation",
+      "type": "string"
+     },
+     {
+      "name": "Frequency",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "jse-listing-requirements-what-each-board-means-for-an-investor",
+   "path": "data/jse/jse-listing-requirements__what-each-board-means-for-an-investor.csv",
+   "title": "JSE Listing Requirements: What each board means for an investor",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "JSE Listing Requirements",
+     "path": "https://www.tradeanswers.co.za/jse-listing-requirements.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Board",
+      "type": "string"
+     },
+     {
+      "name": "Typical company",
+      "type": "string"
+     },
+     {
+      "name": "What to watch",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "jse-sectors-reference-rand-hedges-against-domestic-earners",
+   "path": "data/jse/jse-sectors-reference__rand-hedges-against-domestic-earners.csv",
+   "title": "JSE Sectors Reference: Rand hedges against domestic earners",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "JSE Sectors Reference",
+     "path": "https://www.tradeanswers.co.za/jse-sectors-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Type",
+      "type": "string"
+     },
+     {
+      "name": "Earnings mostly from",
+      "type": "string"
+     },
+     {
+      "name": "A weaker rand",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "jse-sectors-reference-sector-indices-published-by-the-jse",
+   "path": "data/jse/jse-sectors-reference__sector-indices-published-by-the-jse.csv",
+   "title": "JSE Sectors Reference: Sector indices published by the JSE",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "JSE Sectors Reference",
+     "path": "https://www.tradeanswers.co.za/jse-sectors-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Index",
+      "type": "string"
+     },
+     {
+      "name": "Covers",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "jse-sectors-reference-the-main-industries-and-what-moves-them",
+   "path": "data/jse/jse-sectors-reference__the-main-industries-and-what-moves-them.csv",
+   "title": "JSE Sectors Reference: The main industries and what moves them",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "JSE Sectors Reference",
+     "path": "https://www.tradeanswers.co.za/jse-sectors-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Industry",
+      "type": "string"
+     },
+     {
+      "name": "Approximate index weight",
+      "type": "string"
+     },
+     {
+      "name": "Primary driver",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "jse-settlement-cycle-the-cycle",
+   "path": "data/jse/jse-settlement-cycle__the-cycle.csv",
+   "title": "JSE Settlement Cycle: The cycle",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "JSE Settlement Cycle",
+     "path": "https://www.tradeanswers.co.za/jse-settlement-cycle.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Day",
+      "type": "string"
+     },
+     {
+      "name": "What happens",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "jse-settlement-cycle-trade-on-a-monday-with-no-holidays",
+   "path": "data/jse/jse-settlement-cycle__trade-on-a-monday-with-no-holidays.csv",
+   "title": "JSE Settlement Cycle: Trade on a Monday, with no holidays",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "JSE Settlement Cycle",
+     "path": "https://www.tradeanswers.co.za/jse-settlement-cycle.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Day",
+      "type": "string"
+     },
+     {
+      "name": "Date",
+      "type": "string"
+     },
+     {
+      "name": "What happens",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "jse-settlement-cycle-what-the-gap-affects",
+   "path": "data/jse/jse-settlement-cycle__what-the-gap-affects.csv",
+   "title": "JSE Settlement Cycle: What the gap affects",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "JSE Settlement Cycle",
+     "path": "https://www.tradeanswers.co.za/jse-settlement-cycle.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Situation",
+      "type": "string"
+     },
+     {
+      "name": "Consequence",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "jse-trading-cost-schedule-a-round-trip-with-a-0-5-brokerage-rate-and-an-r70-minimum",
+   "path": "data/jse/jse-trading-cost-schedule__a-round-trip-with-a-0-5-brokerage-rate-and-an-r70-minimum.csv",
+   "title": "JSE Trading Cost Schedule: A round trip, with a 0.5% brokerage rate and an R70 minimum",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "JSE Trading Cost Schedule",
+     "path": "https://www.tradeanswers.co.za/jse-trading-cost-schedule.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Trade value",
+      "type": "string"
+     },
+     {
+      "name": "Buy cost",
+      "type": "string"
+     },
+     {
+      "name": "Sell cost",
+      "type": "string"
+     },
+     {
+      "name": "Round trip",
+      "type": "string"
+     },
+     {
+      "name": "Move needed",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "jse-trading-cost-schedule-what-a-trade-costs",
+   "path": "data/jse/jse-trading-cost-schedule__what-a-trade-costs.csv",
+   "title": "JSE Trading Cost Schedule: What a trade costs",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "JSE Trading Cost Schedule",
+     "path": "https://www.tradeanswers.co.za/jse-trading-cost-schedule.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Charge",
+      "type": "string"
+     },
+     {
+      "name": "Rate",
+      "type": "string"
+     },
+     {
+      "name": "Paid on",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "jse-trading-cost-schedule-why-trade-size-dominates",
+   "path": "data/jse/jse-trading-cost-schedule__why-trade-size-dominates.csv",
+   "title": "JSE Trading Cost Schedule: Why trade size dominates",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "JSE Trading Cost Schedule",
+     "path": "https://www.tradeanswers.co.za/jse-trading-cost-schedule.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Trade value",
+      "type": "string"
+     },
+     {
+      "name": "Typical total cost",
+      "type": "string"
+     },
+     {
+      "name": "Round trip breakeven",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "jse-trading-hours-and-holidays-south-african-public-holidays",
+   "path": "data/jse/jse-trading-hours-and-holidays__south-african-public-holidays.csv",
+   "title": "JSE Trading Hours and Holidays: South African public holidays",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "JSE Trading Hours and Holidays",
+     "path": "https://www.tradeanswers.co.za/jse-trading-hours-and-holidays.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Holiday",
+      "type": "string"
+     },
+     {
+      "name": "Date",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "jse-trading-hours-and-holidays-the-jse-against-the-other-sessions-south-african-time",
+   "path": "data/jse/jse-trading-hours-and-holidays__the-jse-against-the-other-sessions-south-african-time.csv",
+   "title": "JSE Trading Hours and Holidays: The JSE against the other sessions, South African time",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "JSE Trading Hours and Holidays",
+     "path": "https://www.tradeanswers.co.za/jse-trading-hours-and-holidays.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Market",
+      "type": "string"
+     },
+     {
+      "name": "Opens",
+      "type": "string"
+     },
+     {
+      "name": "Closes",
+      "type": "string"
+     },
+     {
+      "name": "Overlaps the JSE",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "jse-trading-hours-and-holidays-the-trading-day-south-african-time",
+   "path": "data/jse/jse-trading-hours-and-holidays__the-trading-day-south-african-time.csv",
+   "title": "JSE Trading Hours and Holidays: The trading day, South African time",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "JSE Trading Hours and Holidays",
+     "path": "https://www.tradeanswers.co.za/jse-trading-hours-and-holidays.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Session",
+      "type": "string"
+     },
+     {
+      "name": "Time",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "leverage-and-margin-limits-reference-how-south-africa-compares",
+   "path": "data/regulation/leverage-and-margin-limits-reference__how-south-africa-compares.csv",
+   "title": "Leverage and Margin Limits Reference: How South Africa compares",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Leverage and Margin Limits Reference",
+     "path": "https://www.tradeanswers.co.za/leverage-and-margin-limits-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Jurisdiction",
+      "type": "string"
+     },
+     {
+      "name": "Retail cap on major pairs",
+      "type": "string"
+     },
+     {
+      "name": "Negative balance protection",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "leverage-and-margin-limits-reference-typical-leverage-by-instrument",
+   "path": "data/regulation/leverage-and-margin-limits-reference__typical-leverage-by-instrument.csv",
+   "title": "Leverage and Margin Limits Reference: Typical leverage by instrument",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Leverage and Margin Limits Reference",
+     "path": "https://www.tradeanswers.co.za/leverage-and-margin-limits-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Instrument",
+      "type": "string"
+     },
+     {
+      "name": "Common leverage",
+      "type": "string"
+     },
+     {
+      "name": "Margin required",
+      "type": "string"
+     },
+     {
+      "name": "Position on R10,000 margin",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "leverage-and-margin-limits-reference-what-leverage-does-to-a-1-adverse-move",
+   "path": "data/regulation/leverage-and-margin-limits-reference__what-leverage-does-to-a-1-adverse-move.csv",
+   "title": "Leverage and Margin Limits Reference: What leverage does to a 1% adverse move",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Leverage and Margin Limits Reference",
+     "path": "https://www.tradeanswers.co.za/leverage-and-margin-limits-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Leverage",
+      "type": "string"
+     },
+     {
+      "name": "Margin on a R1m position",
+      "type": "string"
+     },
+     {
+      "name": "Loss on a 1% move",
+      "type": "string"
+     },
+     {
+      "name": "Percentage of margin",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "most-actively-traded-jse-shares-what-a-spread-costs-on-a-r100-000-round-trip",
+   "path": "data/jse/most-actively-traded-jse-shares__what-a-spread-costs-on-a-r100-000-round-trip.csv",
+   "title": "Most Actively Traded JSE Shares: What a spread costs on a R100,000 round trip",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Most Actively Traded JSE Shares",
+     "path": "https://www.tradeanswers.co.za/most-actively-traded-jse-shares.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Spread",
+      "type": "string"
+     },
+     {
+      "name": "Typical share",
+      "type": "string"
+     },
+     {
+      "name": "Round trip cost",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "most-actively-traded-jse-shares-what-liquidity-costs-you",
+   "path": "data/jse/most-actively-traded-jse-shares__what-liquidity-costs-you.csv",
+   "title": "Most Actively Traded JSE Shares: What liquidity costs you",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Most Actively Traded JSE Shares",
+     "path": "https://www.tradeanswers.co.za/most-actively-traded-jse-shares.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Liquidity",
+      "type": "string"
+     },
+     {
+      "name": "Typical spread",
+      "type": "string"
+     },
+     {
+      "name": "Practical effect",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "most-actively-traded-jse-shares-where-the-volume-sits",
+   "path": "data/jse/most-actively-traded-jse-shares__where-the-volume-sits.csv",
+   "title": "Most Actively Traded JSE Shares: Where the volume sits",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Most Actively Traded JSE Shares",
+     "path": "https://www.tradeanswers.co.za/most-actively-traded-jse-shares.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Group",
+      "type": "string"
+     },
+     {
+      "name": "Typical characteristics",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "non-resident-banking-reference-the-exit-charge",
+   "path": "data/regulation/non-resident-banking-reference__the-exit-charge.csv",
+   "title": "Non-Resident Banking Reference: The exit charge",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Non-Resident Banking Reference",
+     "path": "https://www.tradeanswers.co.za/non-resident-banking-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Item",
+      "type": "string"
+     },
+     {
+      "name": "Rule",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "non-resident-banking-reference-what-changes",
+   "path": "data/regulation/non-resident-banking-reference__what-changes.csv",
+   "title": "Non-Resident Banking Reference: What changes",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Non-Resident Banking Reference",
+     "path": "https://www.tradeanswers.co.za/non-resident-banking-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Item",
+      "type": "string"
+     },
+     {
+      "name": "While resident",
+      "type": "string"
+     },
+     {
+      "name": "After ceasing residency",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "non-resident-banking-reference-what-you-keep",
+   "path": "data/regulation/non-resident-banking-reference__what-you-keep.csv",
+   "title": "Non-Resident Banking Reference: What you keep",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Non-Resident Banking Reference",
+     "path": "https://www.tradeanswers.co.za/non-resident-banking-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Asset",
+      "type": "string"
+     },
+     {
+      "name": "May still hold",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "paye-on-common-salaries-effect-of-a-retirement-fund-contribution-on-monthly-paye-ded",
+   "path": "data/tax/paye-on-common-salaries__effect-of-a-retirement-fund-contribution-on-monthly-paye-ded.csv",
+   "title": "PAYE on Common Salaries 2026/27: Effect of a retirement fund contribution on monthly PAYE (deducted before tax)",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "PAYE on Common Salaries 2026/27",
+     "path": "https://www.tradeanswers.co.za/paye-on-common-salaries.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Gross per month",
+      "type": "string"
+     },
+     {
+      "name": "No contribution",
+      "type": "string"
+     },
+     {
+      "name": "7.5% contribution",
+      "type": "string"
+     },
+     {
+      "name": "15% contribution",
+      "type": "string"
+     },
+     {
+      "name": "Saving at 15%",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "paye-on-common-salaries-effect-of-the-age-rebates-on-monthly-paye",
+   "path": "data/tax/paye-on-common-salaries__effect-of-the-age-rebates-on-monthly-paye.csv",
+   "title": "PAYE on Common Salaries 2026/27: Effect of the age rebates on monthly PAYE",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "PAYE on Common Salaries 2026/27",
+     "path": "https://www.tradeanswers.co.za/paye-on-common-salaries.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Gross per month",
+      "type": "string"
+     },
+     {
+      "name": "Under 65",
+      "type": "string"
+     },
+     {
+      "name": "65 to 74",
+      "type": "string"
+     },
+     {
+      "name": "75 and over",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "paye-on-common-salaries-monthly-paye-uif-and-net-pay-taxpayer-under-65-no-retirement",
+   "path": "data/tax/paye-on-common-salaries__monthly-paye-uif-and-net-pay-taxpayer-under-65-no-retirement.csv",
+   "title": "PAYE on Common Salaries 2026/27: Monthly PAYE, UIF and net pay, taxpayer under 65, no retirement contribution, no medical credits",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "PAYE on Common Salaries 2026/27",
+     "path": "https://www.tradeanswers.co.za/paye-on-common-salaries.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Gross per month",
+      "type": "string"
+     },
+     {
+      "name": "PAYE per month",
+      "type": "string"
+     },
+     {
+      "name": "UIF (1%, capped)",
+      "type": "string"
+     },
+     {
+      "name": "Net pay",
+      "type": "string"
+     },
+     {
+      "name": "Effective rate",
+      "type": "string"
+     },
+     {
+      "name": "Annual tax",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "paye-uif-and-sdl-reference-deadlines",
+   "path": "data/tax/paye-uif-and-sdl-reference__deadlines.csv",
+   "title": "PAYE, UIF and SDL Reference: Deadlines",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "PAYE, UIF and SDL Reference",
+     "path": "https://www.tradeanswers.co.za/paye-uif-and-sdl-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Return",
+      "type": "string"
+     },
+     {
+      "name": "Covers",
+      "type": "string"
+     },
+     {
+      "name": "Due",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "paye-uif-and-sdl-reference-table-1",
+   "path": "data/tax/paye-uif-and-sdl-reference__table-1.csv",
+   "title": "PAYE, UIF and SDL Reference: table 1",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "PAYE, UIF and SDL Reference",
+     "path": "https://www.tradeanswers.co.za/paye-uif-and-sdl-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "# PAYE, UIF and SDL Reference",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "paye-uif-and-sdl-reference-the-three-deductions",
+   "path": "data/tax/paye-uif-and-sdl-reference__the-three-deductions.csv",
+   "title": "PAYE, UIF and SDL Reference: The three deductions",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "PAYE, UIF and SDL Reference",
+     "path": "https://www.tradeanswers.co.za/paye-uif-and-sdl-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Item",
+      "type": "string"
+     },
+     {
+      "name": "Employee pays",
+      "type": "string"
+     },
+     {
+      "name": "Employer pays",
+      "type": "string"
+     },
+     {
+      "name": "Ceiling",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "paye-uif-and-sdl-reference-what-uif-actually-costs",
+   "path": "data/tax/paye-uif-and-sdl-reference__what-uif-actually-costs.csv",
+   "title": "PAYE, UIF and SDL Reference: What UIF actually costs",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "PAYE, UIF and SDL Reference",
+     "path": "https://www.tradeanswers.co.za/paye-uif-and-sdl-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Monthly salary",
+      "type": "string"
+     },
+     {
+      "name": "Employee 1%",
+      "type": "string"
+     },
+     {
+      "name": "Employer 1%",
+      "type": "string"
+     },
+     {
+      "name": "Total",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "payment-disputes-and-chargebacks-valid-chargeback-grounds",
+   "path": "data/banking-and-payments/payment-disputes-and-chargebacks__valid-chargeback-grounds.csv",
+   "title": "Payment Disputes and Chargebacks: Valid chargeback grounds",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Payment Disputes and Chargebacks",
+     "path": "https://www.tradeanswers.co.za/payment-disputes-and-chargebacks.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Ground",
+      "type": "string"
+     },
+     {
+      "name": "Example",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "payment-disputes-and-chargebacks-what-each-method-protects",
+   "path": "data/banking-and-payments/payment-disputes-and-chargebacks__what-each-method-protects.csv",
+   "title": "Payment Disputes and Chargebacks: What each method protects",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Payment Disputes and Chargebacks",
+     "path": "https://www.tradeanswers.co.za/payment-disputes-and-chargebacks.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Method",
+      "type": "string"
+     },
+     {
+      "name": "Reversible",
+      "type": "string"
+     },
+     {
+      "name": "Time limit",
+      "type": "string"
+     },
+     {
+      "name": "Decided by",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "payment-disputes-and-chargebacks-where-to-take-a-complaint",
+   "path": "data/banking-and-payments/payment-disputes-and-chargebacks__where-to-take-a-complaint.csv",
+   "title": "Payment Disputes and Chargebacks: Where to take a complaint",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Payment Disputes and Chargebacks",
+     "path": "https://www.tradeanswers.co.za/payment-disputes-and-chargebacks.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Issue",
+      "type": "string"
+     },
+     {
+      "name": "Go to",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "popia-for-financial-services-what-popia-requires",
+   "path": "data/regulation/popia-for-financial-services__what-popia-requires.csv",
+   "title": "POPIA for Financial Services: What POPIA requires",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "POPIA for Financial Services",
+     "path": "https://www.tradeanswers.co.za/popia-for-financial-services.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Condition",
+      "type": "string"
+     },
+     {
+      "name": "Meaning",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "popia-for-financial-services-where-fica-and-popia-meet",
+   "path": "data/regulation/popia-for-financial-services__where-fica-and-popia-meet.csv",
+   "title": "POPIA for Financial Services: Where FICA and POPIA meet",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "POPIA for Financial Services",
+     "path": "https://www.tradeanswers.co.za/popia-for-financial-services.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Situation",
+      "type": "string"
+     },
+     {
+      "name": "Which applies",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "popia-for-financial-services-your-rights",
+   "path": "data/regulation/popia-for-financial-services__your-rights.csv",
+   "title": "POPIA for Financial Services: Your rights",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "POPIA for Financial Services",
+     "path": "https://www.tradeanswers.co.za/popia-for-financial-services.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Right",
+      "type": "string"
+     },
+     {
+      "name": "How to use it",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "prudential-authority-reference-what-the-prudential-authority-requires",
+   "path": "data/regulation/prudential-authority-reference__what-the-prudential-authority-requires.csv",
+   "title": "Prudential Authority Reference: What the Prudential Authority requires",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Prudential Authority Reference",
+     "path": "https://www.tradeanswers.co.za/prudential-authority-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Requirement",
+      "type": "string"
+     },
+     {
+      "name": "Applies to",
+      "type": "string"
+     },
+     {
+      "name": "Purpose",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "prudential-authority-reference-where-a-broker-sits",
+   "path": "data/regulation/prudential-authority-reference__where-a-broker-sits.csv",
+   "title": "Prudential Authority Reference: Where a broker sits",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Prudential Authority Reference",
+     "path": "https://www.tradeanswers.co.za/prudential-authority-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Type",
+      "type": "string"
+     },
+     {
+      "name": "Prudential Authority",
+      "type": "string"
+     },
+     {
+      "name": "FSCA",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "prudential-authority-reference-who-does-what",
+   "path": "data/regulation/prudential-authority-reference__who-does-what.csv",
+   "title": "Prudential Authority Reference: Who does what",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Prudential Authority Reference",
+     "path": "https://www.tradeanswers.co.za/prudential-authority-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Regulator",
+      "type": "string"
+     },
+     {
+      "name": "Concern",
+      "type": "string"
+     },
+     {
+      "name": "Regulates",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "rand-exchange-rate-history-what-a-move-costs-on-an-offshore-transfer",
+   "path": "data/economy-and-rates/rand-exchange-rate-history__what-a-move-costs-on-an-offshore-transfer.csv",
+   "title": "Rand Exchange Rate History: What a move costs on an offshore transfer",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Rand Exchange Rate History",
+     "path": "https://www.tradeanswers.co.za/rand-exchange-rate-history.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Amount",
+      "type": "string"
+     },
+     {
+      "name": "At R16.40",
+      "type": "string"
+     },
+     {
+      "name": "At R17.50",
+      "type": "string"
+     },
+     {
+      "name": "Difference",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "rand-exchange-rate-history-what-drives-the-rand",
+   "path": "data/economy-and-rates/rand-exchange-rate-history__what-drives-the-rand.csv",
+   "title": "Rand Exchange Rate History: What drives the rand",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Rand Exchange Rate History",
+     "path": "https://www.tradeanswers.co.za/rand-exchange-rate-history.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Factor",
+      "type": "string"
+     },
+     {
+      "name": "Direction",
+      "type": "string"
+     },
+     {
+      "name": "Speed",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "rand-exchange-rate-history-year-end-rates",
+   "path": "data/economy-and-rates/rand-exchange-rate-history__year-end-rates.csv",
+   "title": "Rand Exchange Rate History: Year-end rates",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Rand Exchange Rate History",
+     "path": "https://www.tradeanswers.co.za/rand-exchange-rate-history.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Year",
+      "type": "string"
+     },
+     {
+      "name": "USD/ZAR",
+      "type": "string"
+     },
+     {
+      "name": "EUR/ZAR",
+      "type": "string"
+     },
+     {
+      "name": "GBP/ZAR",
+      "type": "string"
+     },
+     {
+      "name": "What moved it",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "retirement-fund-contribution-limits-regulation-28-what-a-retirement-fund-may-hold",
+   "path": "data/tax/retirement-fund-contribution-limits__regulation-28-what-a-retirement-fund-may-hold.csv",
+   "title": "Retirement Fund Contribution Limits: Regulation 28, what a retirement fund may hold",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Retirement Fund Contribution Limits",
+     "path": "https://www.tradeanswers.co.za/retirement-fund-contribution-limits.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Asset class",
+      "type": "string"
+     },
+     {
+      "name": "Maximum",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "retirement-fund-contribution-limits-the-deduction",
+   "path": "data/tax/retirement-fund-contribution-limits__the-deduction.csv",
+   "title": "Retirement Fund Contribution Limits: The deduction",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Retirement Fund Contribution Limits",
+     "path": "https://www.tradeanswers.co.za/retirement-fund-contribution-limits.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Item",
+      "type": "string"
+     },
+     {
+      "name": "Rule",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "retirement-fund-contribution-limits-the-deduction-at-common-income-levels",
+   "path": "data/tax/retirement-fund-contribution-limits__the-deduction-at-common-income-levels.csv",
+   "title": "Retirement Fund Contribution Limits: The deduction at common income levels",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Retirement Fund Contribution Limits",
+     "path": "https://www.tradeanswers.co.za/retirement-fund-contribution-limits.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Taxable income",
+      "type": "string"
+     },
+     {
+      "name": "27.5% of income",
+      "type": "string"
+     },
+     {
+      "name": "Deductible this year",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "retirement-lump-sum-tax-tables-how-earlier-lump-sums-change-the-tax-on-a-r400-000-retiremen",
+   "path": "data/tax/retirement-lump-sum-tax-tables__how-earlier-lump-sums-change-the-tax-on-a-r400-000-retiremen.csv",
+   "title": "Retirement Lump Sum Tax Tables: How earlier lump sums change the tax on a R400,000 retirement lump sum",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Retirement Lump Sum Tax Tables",
+     "path": "https://www.tradeanswers.co.za/retirement-lump-sum-tax-tables.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Lump sums taken before",
+      "type": "string"
+     },
+     {
+      "name": "This lump sum",
+      "type": "string"
+     },
+     {
+      "name": "Tax on this lump sum",
+      "type": "string"
+     },
+     {
+      "name": "Tax-free portion still available",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "retirement-lump-sum-tax-tables-retirement-death-and-severance-table-lifetime-cumulative",
+   "path": "data/tax/retirement-lump-sum-tax-tables__retirement-death-and-severance-table-lifetime-cumulative.csv",
+   "title": "Retirement Lump Sum Tax Tables: Retirement, death and severance table (lifetime cumulative)",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Retirement Lump Sum Tax Tables",
+     "path": "https://www.tradeanswers.co.za/retirement-lump-sum-tax-tables.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Cumulative lump sums",
+      "type": "string"
+     },
+     {
+      "name": "Rate of tax",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "retirement-lump-sum-tax-tables-tax-on-common-amounts-first-lump-sum-ever-taken",
+   "path": "data/tax/retirement-lump-sum-tax-tables__tax-on-common-amounts-first-lump-sum-ever-taken.csv",
+   "title": "Retirement Lump Sum Tax Tables: Tax on common amounts, first lump sum ever taken",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Retirement Lump Sum Tax Tables",
+     "path": "https://www.tradeanswers.co.za/retirement-lump-sum-tax-tables.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Lump sum",
+      "type": "string"
+     },
+     {
+      "name": "Tax at retirement or retrenchment",
+      "type": "string"
+     },
+     {
+      "name": "Effective rate",
+      "type": "string"
+     },
+     {
+      "name": "Tax on withdrawal",
+      "type": "string"
+     },
+     {
+      "name": "Effective rate",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "retirement-lump-sum-tax-tables-withdrawal-table-resignation-dismissal-divorce-lifetime-cumu",
+   "path": "data/tax/retirement-lump-sum-tax-tables__withdrawal-table-resignation-dismissal-divorce-lifetime-cumu.csv",
+   "title": "Retirement Lump Sum Tax Tables: Withdrawal table: resignation, dismissal, divorce (lifetime cumulative)",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Retirement Lump Sum Tax Tables",
+     "path": "https://www.tradeanswers.co.za/retirement-lump-sum-tax-tables.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Cumulative lump sums",
+      "type": "string"
+     },
+     {
+      "name": "Rate of tax",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "sarb-finsurv-approval-reference-applying-to-finsurv",
+   "path": "data/regulation/sarb-finsurv-approval-reference__applying-to-finsurv.csv",
+   "title": "SARB FinSurv Approval Reference: Applying to FinSurv",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "SARB FinSurv Approval Reference",
+     "path": "https://www.tradeanswers.co.za/sarb-finsurv-approval-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Step",
+      "type": "string"
+     },
+     {
+      "name": "Detail",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "sarb-finsurv-approval-reference-what-an-authorised-dealer-is",
+   "path": "data/regulation/sarb-finsurv-approval-reference__what-an-authorised-dealer-is.csv",
+   "title": "SARB FinSurv Approval Reference: What an authorised dealer is",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "SARB FinSurv Approval Reference",
+     "path": "https://www.tradeanswers.co.za/sarb-finsurv-approval-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Item",
+      "type": "string"
+     },
+     {
+      "name": "Detail",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "sarb-finsurv-approval-reference-who-approves-what",
+   "path": "data/regulation/sarb-finsurv-approval-reference__who-approves-what.csv",
+   "title": "SARB FinSurv Approval Reference: Who approves what",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "SARB FinSurv Approval Reference",
+     "path": "https://www.tradeanswers.co.za/sarb-finsurv-approval-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Transaction",
+      "type": "string"
+     },
+     {
+      "name": "Approved by",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "sarb-foreign-exchange-reserves-the-reserve-position",
+   "path": "data/economy-and-rates/sarb-foreign-exchange-reserves__the-reserve-position.csv",
+   "title": "SARB Foreign Exchange Reserves: The reserve position",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "SARB Foreign Exchange Reserves",
+     "path": "https://www.tradeanswers.co.za/sarb-foreign-exchange-reserves.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Measure",
+      "type": "string"
+     },
+     {
+      "name": "Approximate level",
+      "type": "string"
+     },
+     {
+      "name": "What it is",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "sarb-foreign-exchange-reserves-what-moves-the-reserves",
+   "path": "data/economy-and-rates/sarb-foreign-exchange-reserves__what-moves-the-reserves.csv",
+   "title": "SARB Foreign Exchange Reserves: What moves the reserves",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "SARB Foreign Exchange Reserves",
+     "path": "https://www.tradeanswers.co.za/sarb-foreign-exchange-reserves.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Event",
+      "type": "string"
+     },
+     {
+      "name": "Effect",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "sarb-foreign-exchange-reserves-why-the-bank-does-not-intervene",
+   "path": "data/economy-and-rates/sarb-foreign-exchange-reserves__why-the-bank-does-not-intervene.csv",
+   "title": "SARB Foreign Exchange Reserves: Why the Bank does not intervene",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "SARB Foreign Exchange Reserves",
+     "path": "https://www.tradeanswers.co.za/sarb-foreign-exchange-reserves.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Reason",
+      "type": "string"
+     },
+     {
+      "name": "Explanation",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "sarb-mpc-meeting-calendar-how-to-read-the-announcement",
+   "path": "data/economy-and-rates/sarb-mpc-meeting-calendar__how-to-read-the-announcement.csv",
+   "title": "SARB MPC Meeting Calendar: How to read the announcement",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "SARB MPC Meeting Calendar",
+     "path": "https://www.tradeanswers.co.za/sarb-mpc-meeting-calendar.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Signal",
+      "type": "string"
+     },
+     {
+      "name": "Hawkish reading",
+      "type": "string"
+     },
+     {
+      "name": "Dovish reading",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "sarb-mpc-meeting-calendar-the-meeting-pattern",
+   "path": "data/economy-and-rates/sarb-mpc-meeting-calendar__the-meeting-pattern.csv",
+   "title": "SARB MPC Meeting Calendar: The meeting pattern",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "SARB MPC Meeting Calendar",
+     "path": "https://www.tradeanswers.co.za/sarb-mpc-meeting-calendar.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Item",
+      "type": "string"
+     },
+     {
+      "name": "Detail",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "sarb-mpc-meeting-calendar-what-the-announcement-contains",
+   "path": "data/economy-and-rates/sarb-mpc-meeting-calendar__what-the-announcement-contains.csv",
+   "title": "SARB MPC Meeting Calendar: What the announcement contains",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "SARB MPC Meeting Calendar",
+     "path": "https://www.tradeanswers.co.za/sarb-mpc-meeting-calendar.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Element",
+      "type": "string"
+     },
+     {
+      "name": "Why it matters",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "sarb-repo-rate-history-recent-decisions",
+   "path": "data/economy-and-rates/sarb-repo-rate-history__recent-decisions.csv",
+   "title": "SARB Repo Rate History: Recent decisions",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "SARB Repo Rate History",
+     "path": "https://www.tradeanswers.co.za/sarb-repo-rate-history.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Effective from",
+      "type": "string"
+     },
+     {
+      "name": "Change",
+      "type": "string"
+     },
+     {
+      "name": "Repo rate",
+      "type": "string"
+     },
+     {
+      "name": "Prime",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "sarb-repo-rate-history-repo-rate-at-each-year-end-2000-to-2026",
+   "path": "data/economy-and-rates/sarb-repo-rate-history__repo-rate-at-each-year-end-2000-to-2026.csv",
+   "title": "SARB Repo Rate History: Repo rate at each year end, 2000 to 2026",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "SARB Repo Rate History",
+     "path": "https://www.tradeanswers.co.za/sarb-repo-rate-history.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Year",
+      "type": "string"
+     },
+     {
+      "name": "Repo at year end",
+      "type": "string"
+     },
+     {
+      "name": "Prime",
+      "type": "string"
+     },
+     {
+      "name": "Change over the year",
+      "type": "string"
+     },
+     {
+      "name": "What drove it",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "sarb-repo-rate-history-the-cycle-by-year",
+   "path": "data/economy-and-rates/sarb-repo-rate-history__the-cycle-by-year.csv",
+   "title": "SARB Repo Rate History: The cycle by year",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "SARB Repo Rate History",
+     "path": "https://www.tradeanswers.co.za/sarb-repo-rate-history.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Year",
+      "type": "string"
+     },
+     {
+      "name": "Started at",
+      "type": "string"
+     },
+     {
+      "name": "Ended at",
+      "type": "string"
+     },
+     {
+      "name": "Direction",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "sarb-repo-rate-history-the-cycle-in-shape",
+   "path": "data/economy-and-rates/sarb-repo-rate-history__the-cycle-in-shape.csv",
+   "title": "SARB Repo Rate History: The cycle in shape",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "SARB Repo Rate History",
+     "path": "https://www.tradeanswers.co.za/sarb-repo-rate-history.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Period",
+      "type": "string"
+     },
+     {
+      "name": "Direction",
+      "type": "string"
+     },
+     {
+      "name": "Range",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "sarb-repo-rate-history-the-three-series-together-at-each-year-end",
+   "path": "data/economy-and-rates/sarb-repo-rate-history__the-three-series-together-at-each-year-end.csv",
+   "title": "SARB Repo Rate History: The three series together, at each year end",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "SARB Repo Rate History",
+     "path": "https://www.tradeanswers.co.za/sarb-repo-rate-history.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Year",
+      "type": "string"
+     },
+     {
+      "name": "Repo",
+      "type": "string"
+     },
+     {
+      "name": "Prime",
+      "type": "string"
+     },
+     {
+      "name": "Headline CPI",
+      "type": "string"
+     },
+     {
+      "name": "Real repo rate",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "sarb-repo-rate-history-what-each-25-basis-point-move-costs-on-a-bond",
+   "path": "data/economy-and-rates/sarb-repo-rate-history__what-each-25-basis-point-move-costs-on-a-bond.csv",
+   "title": "SARB Repo Rate History: What each 25 basis point move costs on a bond",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "SARB Repo Rate History",
+     "path": "https://www.tradeanswers.co.za/sarb-repo-rate-history.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Bond size",
+      "type": "string"
+     },
+     {
+      "name": "Instalment change",
+      "type": "string"
+     },
+     {
+      "name": "Over 20 years",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "sars-income-tax-tables-2026-27-brackets-1-march-2026-to-28-february-2027",
+   "path": "data/tax/sars-income-tax-tables__2026-27-brackets-1-march-2026-to-28-february-2027.csv",
+   "title": "SARS Income Tax Tables: 2026/27 brackets, 1 March 2026 to 28 February 2027",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "SARS Income Tax Tables",
+     "path": "https://www.tradeanswers.co.za/sars-income-tax-tables.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Taxable income",
+      "type": "string"
+     },
+     {
+      "name": "Rate",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "sars-income-tax-tables-brackets-rebates-and-thresholds-across-recent-years",
+   "path": "data/tax/sars-income-tax-tables__brackets-rebates-and-thresholds-across-recent-years.csv",
+   "title": "SARS Income Tax Tables: Brackets, rebates and thresholds across recent years",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "SARS Income Tax Tables",
+     "path": "https://www.tradeanswers.co.za/sars-income-tax-tables.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Year of assessment",
+      "type": "string"
+     },
+     {
+      "name": "First bracket ends",
+      "type": "string"
+     },
+     {
+      "name": "Top bracket starts",
+      "type": "string"
+     },
+     {
+      "name": "Primary rebate",
+      "type": "string"
+     },
+     {
+      "name": "Threshold under 65",
+      "type": "string"
+     },
+     {
+      "name": "Top rate",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "sars-income-tax-tables-medical-scheme-fees-tax-credit",
+   "path": "data/tax/sars-income-tax-tables__medical-scheme-fees-tax-credit.csv",
+   "title": "SARS Income Tax Tables: Medical scheme fees tax credit",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "SARS Income Tax Tables",
+     "path": "https://www.tradeanswers.co.za/sars-income-tax-tables.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Who",
+      "type": "string"
+     },
+     {
+      "name": "2026/27 a month",
+      "type": "string"
+     },
+     {
+      "name": "2025/26 a month",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "sars-income-tax-tables-rebates",
+   "path": "data/tax/sars-income-tax-tables__rebates.csv",
+   "title": "SARS Income Tax Tables: Rebates",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "SARS Income Tax Tables",
+     "path": "https://www.tradeanswers.co.za/sars-income-tax-tables.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Rebate",
+      "type": "string"
+     },
+     {
+      "name": "Who it applies to",
+      "type": "string"
+     },
+     {
+      "name": "Amount",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "sars-income-tax-tables-tax-payable-at-common-income-levels-2026-27-under-65",
+   "path": "data/tax/sars-income-tax-tables__tax-payable-at-common-income-levels-2026-27-under-65.csv",
+   "title": "SARS Income Tax Tables: Tax payable at common income levels, 2026/27, under 65",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "SARS Income Tax Tables",
+     "path": "https://www.tradeanswers.co.za/sars-income-tax-tables.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Taxable income",
+      "type": "string"
+     },
+     {
+      "name": "Tax before rebate",
+      "type": "string"
+     },
+     {
+      "name": "Tax payable",
+      "type": "string"
+     },
+     {
+      "name": "Effective rate",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "sars-income-tax-tables-tax-thresholds-the-income-below-which-no-tax-is-due",
+   "path": "data/tax/sars-income-tax-tables__tax-thresholds-the-income-below-which-no-tax-is-due.csv",
+   "title": "SARS Income Tax Tables: Tax thresholds, the income below which no tax is due",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "SARS Income Tax Tables",
+     "path": "https://www.tradeanswers.co.za/sars-income-tax-tables.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Age",
+      "type": "string"
+     },
+     {
+      "name": "Threshold",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "sars-income-tax-tables-the-same-brackets-in-the-two-preceding-years",
+   "path": "data/tax/sars-income-tax-tables__the-same-brackets-in-the-two-preceding-years.csv",
+   "title": "SARS Income Tax Tables: The same brackets in the two preceding years",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "SARS Income Tax Tables",
+     "path": "https://www.tradeanswers.co.za/sars-income-tax-tables.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Year of assessment",
+      "type": "string"
+     },
+     {
+      "name": "First bracket",
+      "type": "string"
+     },
+     {
+      "name": "Top bracket starts",
+      "type": "string"
+     },
+     {
+      "name": "Primary rebate",
+      "type": "string"
+     },
+     {
+      "name": "Threshold under 65",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "sars-interest-rates-reference-how-the-rates-have-moved",
+   "path": "data/tax/sars-interest-rates-reference__how-the-rates-have-moved.csv",
+   "title": "SARS Interest Rates Reference: How the rates have moved",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "SARS Interest Rates Reference",
+     "path": "https://www.tradeanswers.co.za/sars-interest-rates-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "From",
+      "type": "string"
+     },
+     {
+      "name": "Underpayment",
+      "type": "string"
+     },
+     {
+      "name": "Overpayment",
+      "type": "string"
+     },
+     {
+      "name": "Official rate",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "sars-interest-rates-reference-the-rates",
+   "path": "data/tax/sars-interest-rates-reference__the-rates.csv",
+   "title": "SARS Interest Rates Reference: The rates",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "SARS Interest Rates Reference",
+     "path": "https://www.tradeanswers.co.za/sars-interest-rates-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Rate",
+      "type": "string"
+     },
+     {
+      "name": "Current",
+      "type": "string"
+     },
+     {
+      "name": "Where it applies",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "sars-interest-rates-reference-what-late-payment-actually-costs",
+   "path": "data/tax/sars-interest-rates-reference__what-late-payment-actually-costs.csv",
+   "title": "SARS Interest Rates Reference: What late payment actually costs",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "SARS Interest Rates Reference",
+     "path": "https://www.tradeanswers.co.za/sars-interest-rates-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Amount owed",
+      "type": "string"
+     },
+     {
+      "name": "One month late",
+      "type": "string"
+     },
+     {
+      "name": "Six months late",
+      "type": "string"
+     },
+     {
+      "name": "Twelve months late",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "sars-tax-season-dates-the-filing-season-pattern",
+   "path": "data/tax/sars-tax-season-dates__the-filing-season-pattern.csv",
+   "title": "SARS Tax Season Dates: The filing season pattern",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "SARS Tax Season Dates",
+     "path": "https://www.tradeanswers.co.za/sars-tax-season-dates.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Taxpayer",
+      "type": "string"
+     },
+     {
+      "name": "Season typically opens",
+      "type": "string"
+     },
+     {
+      "name": "Deadline",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "sars-tax-season-dates-the-tax-year-itself",
+   "path": "data/tax/sars-tax-season-dates__the-tax-year-itself.csv",
+   "title": "SARS Tax Season Dates: The tax year itself",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "SARS Tax Season Dates",
+     "path": "https://www.tradeanswers.co.za/sars-tax-season-dates.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Item",
+      "type": "string"
+     },
+     {
+      "name": "Date",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "sars-tax-season-dates-the-year-end-to-end",
+   "path": "data/tax/sars-tax-season-dates__the-year-end-to-end.csv",
+   "title": "SARS Tax Season Dates: The year end to end",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "SARS Tax Season Dates",
+     "path": "https://www.tradeanswers.co.za/sars-tax-season-dates.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Month",
+      "type": "string"
+     },
+     {
+      "name": "What happens",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-balance-of-payments-the-current-account-as-a-share-of-gdp",
+   "path": "data/economy-and-rates/south-african-balance-of-payments__the-current-account-as-a-share-of-gdp.csv",
+   "title": "South African Balance of Payments: The current account, as a share of GDP",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Balance of Payments",
+     "path": "https://www.tradeanswers.co.za/south-african-balance-of-payments.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Year",
+      "type": "string"
+     },
+     {
+      "name": "Current account",
+      "type": "string"
+     },
+     {
+      "name": "Trade balance",
+      "type": "string"
+     },
+     {
+      "name": "Context",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-balance-of-payments-what-makes-up-the-current-account",
+   "path": "data/economy-and-rates/south-african-balance-of-payments__what-makes-up-the-current-account.csv",
+   "title": "South African Balance of Payments: What makes up the current account",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Balance of Payments",
+     "path": "https://www.tradeanswers.co.za/south-african-balance-of-payments.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Component",
+      "type": "string"
+     },
+     {
+      "name": "Typical position",
+      "type": "string"
+     },
+     {
+      "name": "Driver",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-balance-of-payments-why-it-matters-to-the-rand",
+   "path": "data/economy-and-rates/south-african-balance-of-payments__why-it-matters-to-the-rand.csv",
+   "title": "South African Balance of Payments: Why it matters to the rand",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Balance of Payments",
+     "path": "https://www.tradeanswers.co.za/south-african-balance-of-payments.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Situation",
+      "type": "string"
+     },
+     {
+      "name": "Effect on the rand",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-bank-account-types-opening-requirements",
+   "path": "data/banking-and-payments/south-african-bank-account-types__opening-requirements.csv",
+   "title": "South African Bank Account Types: Opening requirements",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Bank Account Types",
+     "path": "https://www.tradeanswers.co.za/south-african-bank-account-types.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Requirement",
+      "type": "string"
+     },
+     {
+      "name": "Resident",
+      "type": "string"
+     },
+     {
+      "name": "Non-resident",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-bank-account-types-the-account-types",
+   "path": "data/banking-and-payments/south-african-bank-account-types__the-account-types.csv",
+   "title": "South African Bank Account Types: The account types",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Bank Account Types",
+     "path": "https://www.tradeanswers.co.za/south-african-bank-account-types.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Account",
+      "type": "string"
+     },
+     {
+      "name": "Holds",
+      "type": "string"
+     },
+     {
+      "name": "Who may open it",
+      "type": "string"
+     },
+     {
+      "name": "Main use",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-bank-account-types-the-customer-foreign-currency-account",
+   "path": "data/banking-and-payments/south-african-bank-account-types__the-customer-foreign-currency-account.csv",
+   "title": "South African Bank Account Types: The customer foreign currency account",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Bank Account Types",
+     "path": "https://www.tradeanswers.co.za/south-african-bank-account-types.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Item",
+      "type": "string"
+     },
+     {
+      "name": "Rule",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-bank-charges-reference-typical-charges-by-account-type",
+   "path": "data/banking-and-payments/south-african-bank-charges-reference__typical-charges-by-account-type.csv",
+   "title": "South African Bank Charges Reference: Typical charges by account type",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Bank Charges Reference",
+     "path": "https://www.tradeanswers.co.za/south-african-bank-charges-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Account type",
+      "type": "string"
+     },
+     {
+      "name": "Monthly fee",
+      "type": "string"
+     },
+     {
+      "name": "EFT",
+      "type": "string"
+     },
+     {
+      "name": "Cash deposit",
+      "type": "string"
+     },
+     {
+      "name": "Suits",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-bank-charges-reference-what-costs-extra-almost-everywhere",
+   "path": "data/banking-and-payments/south-african-bank-charges-reference__what-costs-extra-almost-everywhere.csv",
+   "title": "South African Bank Charges Reference: What costs extra almost everywhere",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Bank Charges Reference",
+     "path": "https://www.tradeanswers.co.za/south-african-bank-charges-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Item",
+      "type": "string"
+     },
+     {
+      "name": "Typical charge",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-bank-charges-reference-where-the-money-goes-on-a-r20-000-monthly-turnover",
+   "path": "data/banking-and-payments/south-african-bank-charges-reference__where-the-money-goes-on-a-r20-000-monthly-turnover.csv",
+   "title": "South African Bank Charges Reference: Where the money goes on a R20,000 monthly turnover",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Bank Charges Reference",
+     "path": "https://www.tradeanswers.co.za/south-african-bank-charges-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Pattern",
+      "type": "string"
+     },
+     {
+      "name": "Approximate monthly cost",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-broker-account-types-the-main-types",
+   "path": "data/regulation/south-african-broker-account-types__the-main-types.csv",
+   "title": "South African Broker Account Types: The main types",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Broker Account Types",
+     "path": "https://www.tradeanswers.co.za/south-african-broker-account-types.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Account",
+      "type": "string"
+     },
+     {
+      "name": "Spread",
+      "type": "string"
+     },
+     {
+      "name": "Commission",
+      "type": "string"
+     },
+     {
+      "name": "Typical minimum",
+      "type": "string"
+     },
+     {
+      "name": "Suits",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-broker-account-types-what-each-actually-costs-on-one-standard-lot",
+   "path": "data/regulation/south-african-broker-account-types__what-each-actually-costs-on-one-standard-lot.csv",
+   "title": "South African Broker Account Types: What each actually costs on one standard lot",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Broker Account Types",
+     "path": "https://www.tradeanswers.co.za/south-african-broker-account-types.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Account",
+      "type": "string"
+     },
+     {
+      "name": "Spread cost",
+      "type": "string"
+     },
+     {
+      "name": "Commission",
+      "type": "string"
+     },
+     {
+      "name": "Total per round turn",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-broker-account-types-what-to-check-before-choosing",
+   "path": "data/regulation/south-african-broker-account-types__what-to-check-before-choosing.csv",
+   "title": "South African Broker Account Types: What to check before choosing",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Broker Account Types",
+     "path": "https://www.tradeanswers.co.za/south-african-broker-account-types.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Item",
+      "type": "string"
+     },
+     {
+      "name": "Why",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-credit-ratings-history-foreign-currency-ratings-over-time",
+   "path": "data/economy-and-rates/south-african-credit-ratings-history__foreign-currency-ratings-over-time.csv",
+   "title": "South African Credit Ratings History: Foreign currency ratings over time",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Credit Ratings History",
+     "path": "https://www.tradeanswers.co.za/south-african-credit-ratings-history.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Year",
+      "type": "string"
+     },
+     {
+      "name": "S&P",
+      "type": "string"
+     },
+     {
+      "name": "Moody's",
+      "type": "string"
+     },
+     {
+      "name": "Fitch",
+      "type": "string"
+     },
+     {
+      "name": "Event",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-credit-ratings-history-what-a-downgrade-does",
+   "path": "data/economy-and-rates/south-african-credit-ratings-history__what-a-downgrade-does.csv",
+   "title": "South African Credit Ratings History: What a downgrade does",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Credit Ratings History",
+     "path": "https://www.tradeanswers.co.za/south-african-credit-ratings-history.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Effect",
+      "type": "string"
+     },
+     {
+      "name": "Speed",
+      "type": "string"
+     },
+     {
+      "name": "Note",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-credit-ratings-history-what-the-grades-mean",
+   "path": "data/economy-and-rates/south-african-credit-ratings-history__what-the-grades-mean.csv",
+   "title": "South African Credit Ratings History: What the grades mean",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Credit Ratings History",
+     "path": "https://www.tradeanswers.co.za/south-african-credit-ratings-history.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "S&P and Fitch",
+      "type": "string"
+     },
+     {
+      "name": "Moody's",
+      "type": "string"
+     },
+     {
+      "name": "Meaning",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-financial-laws-reference-the-main-acts",
+   "path": "data/regulation/south-african-financial-laws-reference__the-main-acts.csv",
+   "title": "South African Financial Laws Reference: The main acts",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Financial Laws Reference",
+     "path": "https://www.tradeanswers.co.za/south-african-financial-laws-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Act",
+      "type": "string"
+     },
+     {
+      "name": "What it governs",
+      "type": "string"
+     },
+     {
+      "name": "Regulator",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-financial-laws-reference-which-body-to-approach",
+   "path": "data/regulation/south-african-financial-laws-reference__which-body-to-approach.csv",
+   "title": "South African Financial Laws Reference: Which body to approach",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Financial Laws Reference",
+     "path": "https://www.tradeanswers.co.za/south-african-financial-laws-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Problem",
+      "type": "string"
+     },
+     {
+      "name": "Act",
+      "type": "string"
+     },
+     {
+      "name": "Where to go",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-financial-laws-reference-which-one-applies-when",
+   "path": "data/regulation/south-african-financial-laws-reference__which-one-applies-when.csv",
+   "title": "South African Financial Laws Reference: Which one applies when",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Financial Laws Reference",
+     "path": "https://www.tradeanswers.co.za/south-african-financial-laws-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Situation",
+      "type": "string"
+     },
+     {
+      "name": "Act",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-fuel-price-levies-how-the-price-is-set",
+   "path": "data/economy-and-rates/south-african-fuel-price-levies__how-the-price-is-set.csv",
+   "title": "South African Fuel Price and Levies: How the price is set",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Fuel Price and Levies",
+     "path": "https://www.tradeanswers.co.za/south-african-fuel-price-levies.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Item",
+      "type": "string"
+     },
+     {
+      "name": "Rule",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-fuel-price-levies-the-levies-2026-27",
+   "path": "data/economy-and-rates/south-african-fuel-price-levies__the-levies-2026-27.csv",
+   "title": "South African Fuel Price and Levies: The levies, 2026/27",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Fuel Price and Levies",
+     "path": "https://www.tradeanswers.co.za/south-african-fuel-price-levies.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Levy",
+      "type": "string"
+     },
+     {
+      "name": "Petrol",
+      "type": "string"
+     },
+     {
+      "name": "Diesel",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-fuel-price-levies-what-the-pump-price-is-made-of-95-petrol-inland-november-202",
+   "path": "data/economy-and-rates/south-african-fuel-price-levies__what-the-pump-price-is-made-of-95-petrol-inland-november-202.csv",
+   "title": "South African Fuel Price and Levies: What the pump price is made of: 95 petrol inland, November 2026",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Fuel Price and Levies",
+     "path": "https://www.tradeanswers.co.za/south-african-fuel-price-levies.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Component",
+      "type": "string"
+     },
+     {
+      "name": "Per litre",
+      "type": "string"
+     },
+     {
+      "name": "Approximate share",
+      "type": "string"
+     },
+     {
+      "name": "Set by",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-gdp-growth-history-real-gdp-growth-by-year",
+   "path": "data/economy-and-rates/south-african-gdp-growth-history__real-gdp-growth-by-year.csv",
+   "title": "South African GDP Growth History: Real GDP growth by year",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African GDP Growth History",
+     "path": "https://www.tradeanswers.co.za/south-african-gdp-growth-history.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Year",
+      "type": "string"
+     },
+     {
+      "name": "Growth",
+      "type": "string"
+     },
+     {
+      "name": "Context",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-gdp-growth-history-what-a-gdp-print-does",
+   "path": "data/economy-and-rates/south-african-gdp-growth-history__what-a-gdp-print-does.csv",
+   "title": "South African GDP Growth History: What a GDP print does",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African GDP Growth History",
+     "path": "https://www.tradeanswers.co.za/south-african-gdp-growth-history.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Surprise",
+      "type": "string"
+     },
+     {
+      "name": "Rand",
+      "type": "string"
+     },
+     {
+      "name": "Bonds",
+      "type": "string"
+     },
+     {
+      "name": "JSE",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-gdp-growth-history-where-the-output-comes-from",
+   "path": "data/economy-and-rates/south-african-gdp-growth-history__where-the-output-comes-from.csv",
+   "title": "South African GDP Growth History: Where the output comes from",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African GDP Growth History",
+     "path": "https://www.tradeanswers.co.za/south-african-gdp-growth-history.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Sector",
+      "type": "string"
+     },
+     {
+      "name": "Approximate share of GDP",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-government-debt-reference-gross-debt-and-the-deficit",
+   "path": "data/economy-and-rates/south-african-government-debt-reference__gross-debt-and-the-deficit.csv",
+   "title": "South African Government Debt Reference: Gross debt and the deficit",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Government Debt Reference",
+     "path": "https://www.tradeanswers.co.za/south-african-government-debt-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Year",
+      "type": "string"
+     },
+     {
+      "name": "Gross debt to GDP",
+      "type": "string"
+     },
+     {
+      "name": "Budget deficit to GDP",
+      "type": "string"
+     },
+     {
+      "name": "Debt service to revenue",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-government-debt-reference-where-the-money-goes",
+   "path": "data/economy-and-rates/south-african-government-debt-reference__where-the-money-goes.csv",
+   "title": "South African Government Debt Reference: Where the money goes",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Government Debt Reference",
+     "path": "https://www.tradeanswers.co.za/south-african-government-debt-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Item",
+      "type": "string"
+     },
+     {
+      "name": "Approximate share of spending",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-government-debt-reference-why-it-matters-to-a-trader",
+   "path": "data/economy-and-rates/south-african-government-debt-reference__why-it-matters-to-a-trader.csv",
+   "title": "South African Government Debt Reference: Why it matters to a trader",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Government Debt Reference",
+     "path": "https://www.tradeanswers.co.za/south-african-government-debt-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Channel",
+      "type": "string"
+     },
+     {
+      "name": "Effect",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-inflation-cpi-history-headline-cpi-by-year",
+   "path": "data/economy-and-rates/south-african-inflation-cpi-history__headline-cpi-by-year.csv",
+   "title": "South African Inflation (CPI) History: Headline CPI by year",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Inflation (CPI) History",
+     "path": "https://www.tradeanswers.co.za/south-african-inflation-cpi-history.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Year",
+      "type": "string"
+     },
+     {
+      "name": "Average headline CPI",
+      "type": "string"
+     },
+     {
+      "name": "Context",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-inflation-cpi-history-headline-cpi-by-year-2000-to-2026",
+   "path": "data/economy-and-rates/south-african-inflation-cpi-history__headline-cpi-by-year-2000-to-2026.csv",
+   "title": "South African Inflation (CPI) History: Headline CPI by year, 2000 to 2026",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Inflation (CPI) History",
+     "path": "https://www.tradeanswers.co.za/south-african-inflation-cpi-history.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Year",
+      "type": "string"
+     },
+     {
+      "name": "Average headline CPI",
+      "type": "string"
+     },
+     {
+      "name": "Repo at year end",
+      "type": "string"
+     },
+     {
+      "name": "Real repo rate",
+      "type": "string"
+     },
+     {
+      "name": "Note",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-inflation-cpi-history-recent-headline-cpi",
+   "path": "data/economy-and-rates/south-african-inflation-cpi-history__recent-headline-cpi.csv",
+   "title": "South African Inflation (CPI) History: Recent headline CPI",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Inflation (CPI) History",
+     "path": "https://www.tradeanswers.co.za/south-african-inflation-cpi-history.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Month",
+      "type": "string"
+     },
+     {
+      "name": "Headline CPI, year on year",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-inflation-cpi-history-the-target",
+   "path": "data/economy-and-rates/south-african-inflation-cpi-history__the-target.csv",
+   "title": "South African Inflation (CPI) History: The target",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Inflation (CPI) History",
+     "path": "https://www.tradeanswers.co.za/south-african-inflation-cpi-history.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Item",
+      "type": "string"
+     },
+     {
+      "name": "Detail",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-inflation-cpi-history-what-inflation-does-to-purchasing-power",
+   "path": "data/economy-and-rates/south-african-inflation-cpi-history__what-inflation-does-to-purchasing-power.csv",
+   "title": "South African Inflation (CPI) History: What inflation does to purchasing power",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Inflation (CPI) History",
+     "path": "https://www.tradeanswers.co.za/south-african-inflation-cpi-history.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Held for",
+      "type": "string"
+     },
+     {
+      "name": "At 3%",
+      "type": "string"
+     },
+     {
+      "name": "At 4.4%",
+      "type": "string"
+     },
+     {
+      "name": "At 6%",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-money-market-rates-the-benchmarks",
+   "path": "data/economy-and-rates/south-african-money-market-rates__the-benchmarks.csv",
+   "title": "South African Money Market Rates: The benchmarks",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Money Market Rates",
+     "path": "https://www.tradeanswers.co.za/south-african-money-market-rates.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Rate",
+      "type": "string"
+     },
+     {
+      "name": "What it measures",
+      "type": "string"
+     },
+     {
+      "name": "Status",
+      "type": "string"
+     },
+     {
+      "name": "Typical use",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-money-market-rates-the-jibar-transition",
+   "path": "data/economy-and-rates/south-african-money-market-rates__the-jibar-transition.csv",
+   "title": "South African Money Market Rates: The JIBAR transition",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Money Market Rates",
+     "path": "https://www.tradeanswers.co.za/south-african-money-market-rates.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Milestone",
+      "type": "string"
+     },
+     {
+      "name": "What it means",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-money-market-rates-where-each-sits",
+   "path": "data/economy-and-rates/south-african-money-market-rates__where-each-sits.csv",
+   "title": "South African Money Market Rates: Where each sits",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Money Market Rates",
+     "path": "https://www.tradeanswers.co.za/south-african-money-market-rates.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Rate",
+      "type": "string"
+     },
+     {
+      "name": "Approximate level",
+      "type": "string"
+     },
+     {
+      "name": "Relationship to repo",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-ombudsman-schemes-what-each-requires-before-it-will-act",
+   "path": "data/regulation/south-african-ombudsman-schemes__what-each-requires-before-it-will-act.csv",
+   "title": "South African Ombudsman Schemes: What each requires before it will act",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Ombudsman Schemes",
+     "path": "https://www.tradeanswers.co.za/south-african-ombudsman-schemes.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Step",
+      "type": "string"
+     },
+     {
+      "name": "Requirement",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-ombudsman-schemes-what-it-cannot-do-for-you",
+   "path": "data/regulation/south-african-ombudsman-schemes__what-it-cannot-do-for-you.csv",
+   "title": "South African Ombudsman Schemes: What it cannot do for you",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Ombudsman Schemes",
+     "path": "https://www.tradeanswers.co.za/south-african-ombudsman-schemes.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Situation",
+      "type": "string"
+     },
+     {
+      "name": "Why not",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-ombudsman-schemes-who-handles-what",
+   "path": "data/regulation/south-african-ombudsman-schemes__who-handles-what.csv",
+   "title": "South African Ombudsman Schemes: Who handles what",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Ombudsman Schemes",
+     "path": "https://www.tradeanswers.co.za/south-african-ombudsman-schemes.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Scheme",
+      "type": "string"
+     },
+     {
+      "name": "Covers",
+      "type": "string"
+     },
+     {
+      "name": "Maximum award",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-payment-methods-the-rails",
+   "path": "data/banking-and-payments/south-african-payment-methods__the-rails.csv",
+   "title": "South African Payment Methods: The rails",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Payment Methods",
+     "path": "https://www.tradeanswers.co.za/south-african-payment-methods.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Method",
+      "type": "string"
+     },
+     {
+      "name": "Speed",
+      "type": "string"
+     },
+     {
+      "name": "Typical cost",
+      "type": "string"
+     },
+     {
+      "name": "Limit",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-payment-methods-what-a-trader-should-use",
+   "path": "data/banking-and-payments/south-african-payment-methods__what-a-trader-should-use.csv",
+   "title": "South African Payment Methods: What a trader should use",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Payment Methods",
+     "path": "https://www.tradeanswers.co.za/south-african-payment-methods.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Purpose",
+      "type": "string"
+     },
+     {
+      "name": "Best route",
+      "type": "string"
+     },
+     {
+      "name": "Why",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-payment-methods-what-changes-when",
+   "path": "data/banking-and-payments/south-african-payment-methods__what-changes-when.csv",
+   "title": "South African Payment Methods: What changes when",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Payment Methods",
+     "path": "https://www.tradeanswers.co.za/south-african-payment-methods.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Situation",
+      "type": "string"
+     },
+     {
+      "name": "Effect",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-unemployment-rate-history-official-and-expanded-rates-by-year",
+   "path": "data/economy-and-rates/south-african-unemployment-rate-history__official-and-expanded-rates-by-year.csv",
+   "title": "South African Unemployment Rate History: Official and expanded rates by year",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Unemployment Rate History",
+     "path": "https://www.tradeanswers.co.za/south-african-unemployment-rate-history.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Year",
+      "type": "string"
+     },
+     {
+      "name": "Official rate",
+      "type": "string"
+     },
+     {
+      "name": "Expanded rate",
+      "type": "string"
+     },
+     {
+      "name": "Youth, 15 to 24",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-unemployment-rate-history-the-two-definitions",
+   "path": "data/economy-and-rates/south-african-unemployment-rate-history__the-two-definitions.csv",
+   "title": "South African Unemployment Rate History: The two definitions",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Unemployment Rate History",
+     "path": "https://www.tradeanswers.co.za/south-african-unemployment-rate-history.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Measure",
+      "type": "string"
+     },
+     {
+      "name": "Counts as unemployed",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "south-african-unemployment-rate-history-what-the-data-moves",
+   "path": "data/economy-and-rates/south-african-unemployment-rate-history__what-the-data-moves.csv",
+   "title": "South African Unemployment Rate History: What the data moves",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "South African Unemployment Rate History",
+     "path": "https://www.tradeanswers.co.za/south-african-unemployment-rate-history.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Item",
+      "type": "string"
+     },
+     {
+      "name": "Effect",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "swift-and-correspondent-banking-how-the-chain-works",
+   "path": "data/banking-and-payments/swift-and-correspondent-banking__how-the-chain-works.csv",
+   "title": "SWIFT and Correspondent Banking: How the chain works",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "SWIFT and Correspondent Banking",
+     "path": "https://www.tradeanswers.co.za/swift-and-correspondent-banking.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Step",
+      "type": "string"
+     },
+     {
+      "name": "What happens",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "swift-and-correspondent-banking-what-can-go-wrong",
+   "path": "data/banking-and-payments/swift-and-correspondent-banking__what-can-go-wrong.csv",
+   "title": "SWIFT and Correspondent Banking: What can go wrong",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "SWIFT and Correspondent Banking",
+     "path": "https://www.tradeanswers.co.za/swift-and-correspondent-banking.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Problem",
+      "type": "string"
+     },
+     {
+      "name": "Usual cause",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "swift-and-correspondent-banking-who-pays-which-charges",
+   "path": "data/banking-and-payments/swift-and-correspondent-banking__who-pays-which-charges.csv",
+   "title": "SWIFT and Correspondent Banking: Who pays which charges",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "SWIFT and Correspondent Banking",
+     "path": "https://www.tradeanswers.co.za/swift-and-correspondent-banking.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Code",
+      "type": "string"
+     },
+     {
+      "name": "Meaning",
+      "type": "string"
+     },
+     {
+      "name": "Effect",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "tax-free-savings-account-limits-the-limits",
+   "path": "data/tax/tax-free-savings-account-limits__the-limits.csv",
+   "title": "Tax-Free Savings Account Limits: The limits",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Tax-Free Savings Account Limits",
+     "path": "https://www.tradeanswers.co.za/tax-free-savings-account-limits.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Limit",
+      "type": "string"
+     },
+     {
+      "name": "Amount",
+      "type": "string"
+     },
+     {
+      "name": "Applies to",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "tax-free-savings-account-limits-what-is-exempt-inside-the-wrapper",
+   "path": "data/tax/tax-free-savings-account-limits__what-is-exempt-inside-the-wrapper.csv",
+   "title": "Tax-Free Savings Account Limits: What is exempt inside the wrapper",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Tax-Free Savings Account Limits",
+     "path": "https://www.tradeanswers.co.za/tax-free-savings-account-limits.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Tax",
+      "type": "string"
+     },
+     {
+      "name": "Outside a TFSA",
+      "type": "string"
+     },
+     {
+      "name": "Inside",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "tax-free-savings-account-limits-what-may-be-held",
+   "path": "data/tax/tax-free-savings-account-limits__what-may-be-held.csv",
+   "title": "Tax-Free Savings Account Limits: What may be held",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Tax-Free Savings Account Limits",
+     "path": "https://www.tradeanswers.co.za/tax-free-savings-account-limits.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Instrument",
+      "type": "string"
+     },
+     {
+      "name": "Allowed",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "tax-on-a-bonus-by-amount-table-1",
+   "path": "data/tax/tax-on-a-bonus-by-amount__table-1.csv",
+   "title": "Tax on a Bonus by Amount, 2026/27: table 1",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Tax on a Bonus by Amount, 2026/27",
+     "path": "https://www.tradeanswers.co.za/tax-on-a-bonus-by-amount.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "table",
+      "type": "string"
+     },
+     {
+      "name": "source",
+      "type": "string"
+     },
+     {
+      "name": "checked",
+      "type": "string"
+     },
+     {
+      "name": "col1",
+      "type": "string"
+     },
+     {
+      "name": "col2",
+      "type": "string"
+     },
+     {
+      "name": "col3",
+      "type": "string"
+     },
+     {
+      "name": "col4",
+      "type": "string"
+     },
+     {
+      "name": "col5",
+      "type": "string"
+     },
+     {
+      "name": "col6",
+      "type": "string"
+     },
+     {
+      "name": "col7",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "transfer-duty-and-property-taxes-transfer-duty-2026-27",
+   "path": "data/tax/transfer-duty-and-property-taxes__transfer-duty-2026-27.csv",
+   "title": "Transfer Duty and Property Taxes: Transfer duty, 2026/27",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Transfer Duty and Property Taxes",
+     "path": "https://www.tradeanswers.co.za/transfer-duty-and-property-taxes.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Property value",
+      "type": "string"
+     },
+     {
+      "name": "Duty",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "transfer-duty-and-property-taxes-transfer-duty-or-vat",
+   "path": "data/tax/transfer-duty-and-property-taxes__transfer-duty-or-vat.csv",
+   "title": "Transfer Duty and Property Taxes: Transfer duty or VAT",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Transfer Duty and Property Taxes",
+     "path": "https://www.tradeanswers.co.za/transfer-duty-and-property-taxes.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Seller",
+      "type": "string"
+     },
+     {
+      "name": "Applies",
+      "type": "string"
+     },
+     {
+      "name": "Rate",
+      "type": "string"
+     },
+     {
+      "name": "Who pays",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "transfer-duty-and-property-taxes-what-a-purchase-actually-costs",
+   "path": "data/tax/transfer-duty-and-property-taxes__what-a-purchase-actually-costs.csv",
+   "title": "Transfer Duty and Property Taxes: What a purchase actually costs",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Transfer Duty and Property Taxes",
+     "path": "https://www.tradeanswers.co.za/transfer-duty-and-property-taxes.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-18",
+   "schema": {
+    "fields": [
+     {
+      "name": "Price",
+      "type": "string"
+     },
+     {
+      "name": "Transfer duty",
+      "type": "string"
+     },
+     {
+      "name": "Conveyancing, approximate",
+      "type": "string"
+     },
+     {
+      "name": "Total, approximate",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "travel-and-subsistence-allowance-rates-deemed-cost-table-by-vehicle-value-2026-27",
+   "path": "data/tax/travel-and-subsistence-allowance-rates__deemed-cost-table-by-vehicle-value-2026-27.csv",
+   "title": "Travel and Subsistence Allowance Rates: Deemed cost table, by vehicle value, 2026/27",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Travel and Subsistence Allowance Rates",
+     "path": "https://www.tradeanswers.co.za/travel-and-subsistence-allowance-rates.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Vehicle value",
+      "type": "string"
+     },
+     {
+      "name": "Fixed cost per year",
+      "type": "string"
+     },
+     {
+      "name": "Fuel per km",
+      "type": "string"
+     },
+     {
+      "name": "Maintenance per km",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "travel-and-subsistence-allowance-rates-prescribed-rates",
+   "path": "data/tax/travel-and-subsistence-allowance-rates__prescribed-rates.csv",
+   "title": "Travel and Subsistence Allowance Rates: Prescribed rates",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Travel and Subsistence Allowance Rates",
+     "path": "https://www.tradeanswers.co.za/travel-and-subsistence-allowance-rates.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Item",
+      "type": "string"
+     },
+     {
+      "name": "Amount",
+      "type": "string"
+     },
+     {
+      "name": "Condition",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "travel-and-subsistence-allowance-rates-what-a-logbook-has-to-record",
+   "path": "data/tax/travel-and-subsistence-allowance-rates__what-a-logbook-has-to-record.csv",
+   "title": "Travel and Subsistence Allowance Rates: What a logbook has to record",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Travel and Subsistence Allowance Rates",
+     "path": "https://www.tradeanswers.co.za/travel-and-subsistence-allowance-rates.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Field",
+      "type": "string"
+     },
+     {
+      "name": "Required",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "trust-taxation-reference-rates-that-apply-to-a-trust",
+   "path": "data/tax/trust-taxation-reference__rates-that-apply-to-a-trust.csv",
+   "title": "Trust Taxation Reference: Rates that apply to a trust",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Trust Taxation Reference",
+     "path": "https://www.tradeanswers.co.za/trust-taxation-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Item",
+      "type": "string"
+     },
+     {
+      "name": "Trust",
+      "type": "string"
+     },
+     {
+      "name": "Individual, top bracket",
+      "type": "string"
+     },
+     {
+      "name": "Company",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "trust-taxation-reference-section-7c-the-interest-free-loan-rule",
+   "path": "data/tax/trust-taxation-reference__section-7c-the-interest-free-loan-rule.csv",
+   "title": "Trust Taxation Reference: Section 7C, the interest-free loan rule",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Trust Taxation Reference",
+     "path": "https://www.tradeanswers.co.za/trust-taxation-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Item",
+      "type": "string"
+     },
+     {
+      "name": "Rule",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "trust-taxation-reference-where-the-income-is-taxed",
+   "path": "data/tax/trust-taxation-reference__where-the-income-is-taxed.csv",
+   "title": "Trust Taxation Reference: Where the income is taxed",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Trust Taxation Reference",
+     "path": "https://www.tradeanswers.co.za/trust-taxation-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Situation",
+      "type": "string"
+     },
+     {
+      "name": "Taxed in the hands of",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "two-pot-retirement-system-reference-the-three-components",
+   "path": "data/tax/two-pot-retirement-system-reference__the-three-components.csv",
+   "title": "Two-Pot Retirement System Reference: The three components",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Two-Pot Retirement System Reference",
+     "path": "https://www.tradeanswers.co.za/two-pot-retirement-system-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Component",
+      "type": "string"
+     },
+     {
+      "name": "Where contributions go",
+      "type": "string"
+     },
+     {
+      "name": "Access before retirement",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "two-pot-retirement-system-reference-what-a-withdrawal-costs-at-different-incomes",
+   "path": "data/tax/two-pot-retirement-system-reference__what-a-withdrawal-costs-at-different-incomes.csv",
+   "title": "Two-Pot Retirement System Reference: What a withdrawal costs at different incomes",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Two-Pot Retirement System Reference",
+     "path": "https://www.tradeanswers.co.za/two-pot-retirement-system-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Taxable income",
+      "type": "string"
+     },
+     {
+      "name": "Marginal rate",
+      "type": "string"
+     },
+     {
+      "name": "Tax on a R30,000 withdrawal",
+      "type": "string"
+     },
+     {
+      "name": "Net received",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "two-pot-retirement-system-reference-withdrawing-from-the-savings-component",
+   "path": "data/tax/two-pot-retirement-system-reference__withdrawing-from-the-savings-component.csv",
+   "title": "Two-Pot Retirement System Reference: Withdrawing from the savings component",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Two-Pot Retirement System Reference",
+     "path": "https://www.tradeanswers.co.za/two-pot-retirement-system-reference.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "Item",
+      "type": "string"
+     },
+     {
+      "name": "Rule",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "two-pot-withdrawal-tax-by-amount-table-1",
+   "path": "data/tax/two-pot-withdrawal-tax-by-amount__table-1.csv",
+   "title": "Two-Pot Withdrawal Tax by Amount, 2026/27: table 1",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "Two-Pot Withdrawal Tax by Amount, 2026/27",
+     "path": "https://www.tradeanswers.co.za/two-pot-withdrawal-tax-by-amount.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-16",
+   "schema": {
+    "fields": [
+     {
+      "name": "table",
+      "type": "string"
+     },
+     {
+      "name": "source",
+      "type": "string"
+     },
+     {
+      "name": "checked",
+      "type": "string"
+     },
+     {
+      "name": "col1",
+      "type": "string"
+     },
+     {
+      "name": "col2",
+      "type": "string"
+     },
+     {
+      "name": "col3",
+      "type": "string"
+     },
+     {
+      "name": "col4",
+      "type": "string"
+     },
+     {
+      "name": "col5",
+      "type": "string"
+     },
+     {
+      "name": "col6",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "vat-rates-and-registration-thresholds-rates-and-thresholds",
+   "path": "data/tax/vat-rates-and-registration-thresholds__rates-and-thresholds.csv",
+   "title": "VAT Rates and Registration Thresholds: Rates and thresholds",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "VAT Rates and Registration Thresholds",
+     "path": "https://www.tradeanswers.co.za/vat-rates-and-registration-thresholds.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Item",
+      "type": "string"
+     },
+     {
+      "name": "2026/27",
+      "type": "string"
+     },
+     {
+      "name": "2025/26",
+      "type": "string"
+     },
+     {
+      "name": "Note",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "vat-rates-and-registration-thresholds-what-each-category-means",
+   "path": "data/tax/vat-rates-and-registration-thresholds__what-each-category-means.csv",
+   "title": "VAT Rates and Registration Thresholds: What each category means",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "VAT Rates and Registration Thresholds",
+     "path": "https://www.tradeanswers.co.za/vat-rates-and-registration-thresholds.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Category",
+      "type": "string"
+     },
+     {
+      "name": "VAT charged",
+      "type": "string"
+     },
+     {
+      "name": "Input VAT claimable",
+      "type": "string"
+     },
+     {
+      "name": "Examples",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "vat-rates-and-registration-thresholds-what-it-means-for-a-trader",
+   "path": "data/tax/vat-rates-and-registration-thresholds__what-it-means-for-a-trader.csv",
+   "title": "VAT Rates and Registration Thresholds: What it means for a trader",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "VAT Rates and Registration Thresholds",
+     "path": "https://www.tradeanswers.co.za/vat-rates-and-registration-thresholds.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Activity",
+      "type": "string"
+     },
+     {
+      "name": "VAT treatment",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "what-r10000-invested-in-2000-is-worth-today-how-the-figures-were-calculated",
+   "path": "data/jse/what-r10000-invested-in-2000-is-worth-today__how-the-figures-were-calculated.csv",
+   "title": "What R10,000 Invested in 2000 Is Worth Today: JSE, S&P 500, Gold and Cash in Rand: How the figures were calculated",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "What R10,000 Invested in 2000 Is Worth Today: JSE, S&P 500, Gold and Cash in Rand",
+     "path": "https://www.tradeanswers.co.za/what-r10000-invested-in-2000-is-worth-today.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Step",
+      "type": "string"
+     },
+     {
+      "name": "Method",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "what-r10000-invested-in-2000-is-worth-today-r10-000-invested-at-the-end-of-1999-valued-on-30-september-2",
+   "path": "data/jse/what-r10000-invested-in-2000-is-worth-today__r10-000-invested-at-the-end-of-1999-valued-on-30-september-2.csv",
+   "title": "What R10,000 Invested in 2000 Is Worth Today: JSE, S&P 500, Gold and Cash in Rand: R10,000 invested at the end of 1999, valued on 30 September 2026",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "What R10,000 Invested in 2000 Is Worth Today: JSE, S&P 500, Gold and Cash in Rand",
+     "path": "https://www.tradeanswers.co.za/what-r10000-invested-in-2000-is-worth-today.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Investment",
+      "type": "string"
+     },
+     {
+      "name": "Value in rand",
+      "type": "string"
+     },
+     {
+      "name": "Multiple",
+      "type": "string"
+     },
+     {
+      "name": "Annual return in rand",
+      "type": "string"
+     },
+     {
+      "name": "Value after inflation (1999 rand)",
+      "type": "string"
+     },
+     {
+      "name": "Real annual return",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "what-r10000-invested-in-2000-is-worth-today-start-and-end-values-used",
+   "path": "data/jse/what-r10000-invested-in-2000-is-worth-today__start-and-end-values-used.csv",
+   "title": "What R10,000 Invested in 2000 Is Worth Today: JSE, S&P 500, Gold and Cash in Rand: Start and end values used",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "What R10,000 Invested in 2000 Is Worth Today: JSE, S&P 500, Gold and Cash in Rand",
+     "path": "https://www.tradeanswers.co.za/what-r10000-invested-in-2000-is-worth-today.html"
+    }
+   ],
+   "x-figures-current-at": "2026-11-17",
+   "schema": {
+    "fields": [
+     {
+      "name": "Measure",
+      "type": "string"
+     },
+     {
+      "name": "End of 1999",
+      "type": "string"
+     },
+     {
+      "name": "30 September 2026",
+      "type": "string"
+     },
+     {
+      "name": "Source",
+      "type": "string"
+     }
+    ]
+   }
+  }
+ ]
+}

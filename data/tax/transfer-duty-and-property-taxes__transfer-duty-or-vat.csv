@@ -1,0 +1,5 @@
+Seller,Applies,Rate,Who pays
+A private seller,Transfer duty,Sliding scale,The buyer
+A VAT-registered developer,VAT,15%,Included in the price
+A company selling a property held as stock,VAT,15%,Included in the price
+Sale of shares in a property company,Securities transfer tax,0.25%,The buyer

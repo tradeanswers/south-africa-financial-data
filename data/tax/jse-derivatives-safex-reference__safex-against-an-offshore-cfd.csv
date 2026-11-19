@@ -1,0 +1,8 @@
+Feature,SAFEX,Offshore CFD
+Counterparty,The clearing house,The broker
+Regulator,JSE and FSCA,The broker's home regulator
+Pricing,Exchange order book,The broker's quote
+Margin,Set by the exchange,Set by the broker
+Expiry,Quarterly close-out,Usually none
+Overnight cost,"None, the price carries it",Daily financing
+Minimum size,"One contract, usually substantial",Fractional

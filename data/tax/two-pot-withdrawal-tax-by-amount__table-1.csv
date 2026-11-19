@@ -1,0 +1,33 @@
+table,source,checked,col1,col2,col3,col4,col5,col6
+"Tax deducted from a savings pot withdrawal, taxpayer under 65, 2026/27",SARS: Two-pot retirement system,2026-10-19,Withdrawal,"Income R150,000 a year","Income R250,000 a year","Income R400,000 a year","Income R600,000 a year","Income R900,000 a year"
+"Tax deducted from a savings pot withdrawal, taxpayer under 65, 2026/27",,,"R2,000",R360,R520,R620,R720,R820
+"Tax deducted from a savings pot withdrawal, taxpayer under 65, 2026/27",,,"R5,000",R900,"R1,300","R1,550","R1,800","R2,050"
+"Tax deducted from a savings pot withdrawal, taxpayer under 65, 2026/27",,,"R10,000","R1,800","R2,600","R3,100","R3,600","R4,100"
+"Tax deducted from a savings pot withdrawal, taxpayer under 65, 2026/27",,,"R15,000","R2,700","R3,900","R4,650","R5,400","R6,150"
+"Tax deducted from a savings pot withdrawal, taxpayer under 65, 2026/27",,,"R20,000","R3,600","R5,200","R6,200","R7,200","R8,200"
+"Tax deducted from a savings pot withdrawal, taxpayer under 65, 2026/27",,,"R25,000","R4,500","R6,500","R7,750","R9,000","R10,250"
+"Tax deducted from a savings pot withdrawal, taxpayer under 65, 2026/27",,,"R30,000","R5,400","R7,800","R9,300","R10,800","R12,300"
+"Tax deducted from a savings pot withdrawal, taxpayer under 65, 2026/27",,,"R40,000","R7,200","R10,400","R12,400","R14,400","R16,400"
+"Tax deducted from a savings pot withdrawal, taxpayer under 65, 2026/27",,,"R50,000","R9,000","R13,000","R15,500","R18,000","R20,500"
+"Tax deducted from a savings pot withdrawal, taxpayer under 65, 2026/27",,,"R75,000","R13,500","R19,500","R23,250","R27,000","R30,750"
+"Tax deducted from a savings pot withdrawal, taxpayer under 65, 2026/27",,,"R100,000","R18,392","R26,000","R31,000","R36,126","R41,000"
+Amount you receive after tax (before the fund's administration fee),SARS: Two-pot retirement system,2026-10-19,Withdrawal,"Income R150,000 a year","Income R250,000 a year","Income R400,000 a year","Income R600,000 a year","Income R900,000 a year"
+Amount you receive after tax (before the fund's administration fee),,,"R2,000","R1,640","R1,480","R1,380","R1,280","R1,180"
+Amount you receive after tax (before the fund's administration fee),,,"R5,000","R4,100","R3,700","R3,450","R3,200","R2,950"
+Amount you receive after tax (before the fund's administration fee),,,"R10,000","R8,200","R7,400","R6,900","R6,400","R5,900"
+Amount you receive after tax (before the fund's administration fee),,,"R15,000","R12,300","R11,100","R10,350","R9,600","R8,850"
+Amount you receive after tax (before the fund's administration fee),,,"R20,000","R16,400","R14,800","R13,800","R12,800","R11,800"
+Amount you receive after tax (before the fund's administration fee),,,"R25,000","R20,500","R18,500","R17,250","R16,000","R14,750"
+Amount you receive after tax (before the fund's administration fee),,,"R30,000","R24,600","R22,200","R20,700","R19,200","R17,700"
+Amount you receive after tax (before the fund's administration fee),,,"R40,000","R32,800","R29,600","R27,600","R25,600","R23,600"
+Amount you receive after tax (before the fund's administration fee),,,"R50,000","R41,000","R37,000","R34,500","R32,000","R29,500"
+Amount you receive after tax (before the fund's administration fee),,,"R75,000","R61,500","R55,500","R51,750","R48,000","R44,250"
+Amount you receive after tax (before the fund's administration fee),,,"R100,000","R81,608","R74,000","R69,000","R63,874","R59,000"
+"Marginal rate and tax on a R20,000 withdrawal in each bracket",SARS: Two-pot retirement system,2026-10-19,Taxable income band 2026/27,Marginal rate,"Tax on a R20,000 withdrawal",You receive,,
+"Marginal rate and tax on a R20,000 withdrawal in each bracket",,,"R0 to R245,100",18.0%,R0,"R20,000",,
+"Marginal rate and tax on a R20,000 withdrawal in each bracket",,,"R245,101 to R383,100",26.0%,"R5,200","R14,800",,
+"Marginal rate and tax on a R20,000 withdrawal in each bracket",,,"R383,101 to R530,200",31.0%,"R6,200","R13,800",,
+"Marginal rate and tax on a R20,000 withdrawal in each bracket",,,"R530,201 to R695,800",36.0%,"R7,200","R12,800",,
+"Marginal rate and tax on a R20,000 withdrawal in each bracket",,,"R695,801 to R887,000",39.0%,"R7,800","R12,200",,
+"Marginal rate and tax on a R20,000 withdrawal in each bracket",,,"R887,001 to R1,878,600",41.0%,"R8,200","R11,800",,
+"Marginal rate and tax on a R20,000 withdrawal in each bracket",,,"R1,878,601 and above",45.0%,"R9,000","R11,000",,

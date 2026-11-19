@@ -1,0 +1,8 @@
+Taxable income,Rate
+"R0 – R245,100",18% of taxable income
+"R245,101 – R383,100","R44,118 + 26% of the amount above R245,100"
+"R383,101 – R530,200","R79,998 + 31% of the amount above R383,100"
+"R530,201 – R695,800","R125,599 + 36% of the amount above R530,200"
+"R695,801 – R887,000","R185,215 + 39% of the amount above R695,800"
+"R887,001 – R1,878,600","R259,783 + 41% of the amount above R887,000"
+"R1,878,601 and above","R666,339 + 45% of the amount above R1,878,600"

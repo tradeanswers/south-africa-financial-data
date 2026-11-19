@@ -1,0 +1,6 @@
+Item,Rule
+Close-out months,"March, June, September, December"
+Close-out date,The third Thursday of the month
+Close-out period,Prices sampled over a defined window
+Rolling a position,"Close the near contract, open the next"
+Effect on the market,"Volume spikes, and the index can be pinned"

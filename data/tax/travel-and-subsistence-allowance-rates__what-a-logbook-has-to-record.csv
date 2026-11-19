@@ -1,0 +1,7 @@
+Field,Required
+"Opening odometer, 1 March",Yes
+"Closing odometer, end February",Yes
+Date of each business trip,Yes
+Kilometres travelled,Yes
+Destination and reason,Yes
+Private kilometres,Derived from the total

@@ -1,0 +1,5 @@
+Item,Employee pays,Employer pays,Ceiling
+PAYE,At the individual tax tables,Nothing,None
+UIF,1% of remuneration,1% of remuneration,"R17,712 a month"
+SDL,Nothing,1% of total payroll,"None, but exempt below R500,000 a year"
+ETI,Nothing,A credit against PAYE,Qualifying employees only

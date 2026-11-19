@@ -1,0 +1,33 @@
+{
+ "title": "South African Financial, Tax and Market Reference Data (TradeAnswers)",
+ "upload_type": "dataset",
+ "description": "Reference tables on South African tax, exchange control, interest rates, the JSE, payments and financial regulation, compiled by TradeAnswers (tradeanswers.co.za) from official sources such as SARS, the South African Reserve Bank, the FSCA, National Treasury, Statistics South Africa and the JSE. Each table links to the TradeAnswers page that explains it, lists its sources and shows the date its figures were last checked. Each table links to its explanatory page at https://www.tradeanswers.co.za/data-reference.html.",
+ "creators": [
+  {
+   "name": "Lavy, Guy",
+   "affiliation": "TradeAnswers"
+  }
+ ],
+ "license": "cc-by-4.0",
+ "access_right": "open",
+ "version": "1.0",
+ "keywords": [
+  "South Africa",
+  "SARS",
+  "tax",
+  "South African Reserve Bank",
+  "repo rate",
+  "JSE",
+  "FSCA",
+  "exchange control",
+  "rand",
+  "financial regulation"
+ ],
+ "related_identifiers": [
+  {
+   "identifier": "https://www.tradeanswers.co.za/data-reference.html",
+   "relation": "isDocumentedBy",
+   "resource_type": "publication-other"
+  }
+ ]
+}

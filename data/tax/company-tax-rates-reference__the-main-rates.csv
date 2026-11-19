@@ -1,0 +1,7 @@
+Entity,Rate,Note
+Company,27%,"Flat, on taxable income"
+Small business corporation,0% to 27%,"Sliding scale, conditions apply"
+"Micro business, turnover tax",0% to 3%,"On turnover, not profit"
+Trust,45%,"Flat, unless income is distributed"
+Personal service provider,27%,"Company rate, limited deductions"
+Dividends paid out,20%,Withheld from the shareholder

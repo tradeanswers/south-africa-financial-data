@@ -1,0 +1,5 @@
+Category,VAT charged,Input VAT claimable,Examples
+Standard rated,15%,Yes,Most goods and services
+Zero rated,0%,Yes,"Exports, brown bread, maize meal, milk, fuel"
+Exempt,None,No,"Financial services, residential rent, public transport"
+Out of scope,None,No,"Salaries, dividends"

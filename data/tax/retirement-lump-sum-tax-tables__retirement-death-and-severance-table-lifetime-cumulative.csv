@@ -1,0 +1,5 @@
+Cumulative lump sums,Rate of tax
+"R0 to R550,000",0%
+"R550,001 to R770,000","18% of the amount above R550,000"
+"R770,001 to R1,155,000","R39,600 + 27% of the amount above R770,000"
+"R1,155,001 and above","R143,550 + 36% of the amount above R1,155,000"

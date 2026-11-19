@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below and link to the source page of each table."
+title: "South African Financial, Tax and Market Reference Data (TradeAnswers)"
+type: dataset
+authors:
+  - name: "TradeAnswers"
+    website: "https://www.tradeanswers.co.za"
+  - family-names: "Lavy"
+    given-names: "Guy"
+license: CC-BY-4.0
+url: "https://www.tradeanswers.co.za/data-reference.html"
+version: "1.0"
+date-released: "2026-11-19"
+keywords: [South Africa, SARS, tax tables, South African Reserve Bank, repo rate, JSE, FSCA, exchange control, rand]

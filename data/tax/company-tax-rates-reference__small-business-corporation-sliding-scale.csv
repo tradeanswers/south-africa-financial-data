@@ -1,0 +1,5 @@
+Taxable income,Rate
+"R0 to R99,000",0%
+"R99,001 to R365,000","7% of the amount above R99,000"
+"R365,001 to R550,000","R18,620 plus 21% above R365,000"
+"Above R550,000","R57,470 plus 27% above R550,000"

@@ -1,0 +1,7 @@
+Contract,Underlying,Contract size,Settlement
+ALSI future,FTSE/JSE Top 40 index,R10 per index point,Cash
+DTOP future,FTSE/JSE Top 40 SWIX,R10 per index point,Cash
+Single stock future,One JSE-listed share,100 shares,Cash or physical
+Index option,Top 40 index,As the future,Cash
+Can-Do future,Customised,Negotiated,As agreed
+Dividend future,Index dividends,Per point,Cash
