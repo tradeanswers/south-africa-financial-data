@@ -8,6 +8,7 @@ Reference tables on South African tax, exchange control, interest rates, the JSE
 - **Licence:** Creative Commons Attribution 4.0 International (CC BY 4.0)
 - **Contents:** 233 CSV tables from 74 reference pages
 - **Encoding:** UTF-8, comma-separated, one header row per file
+- **Also on:** [Zenodo](https://doi.org/10.5281/zenodo.24361562) and [Kaggle](https://www.kaggle.com/datasets/tradeanswers/south-african-financial-and-tax-reference-data)
 
 ## How to cite
 
