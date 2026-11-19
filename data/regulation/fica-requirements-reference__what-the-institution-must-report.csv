@@ -1,0 +1,5 @@
+Report,Trigger,To
+Cash threshold report,"Cash of R49,999.99 or more",Financial Intelligence Centre
+Suspicious transaction report,"Any suspicion, no threshold",Financial Intelligence Centre
+Terrorist property report,Property linked to a listed person,Financial Intelligence Centre
+International funds transfer report,Cross-border transfers above the threshold,Financial Intelligence Centre

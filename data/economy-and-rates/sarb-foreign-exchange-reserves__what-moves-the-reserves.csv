@@ -1,0 +1,6 @@
+Event,Effect
+A weaker rand,Raises the rand value of the reserves
+A higher gold price,Raises the value of the gold holding
+IMF allocations,Adds to SDR holdings
+Government foreign borrowing,Adds temporarily
+Opportunistic purchases,"Adds gradually, when conditions allow"

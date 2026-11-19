@@ -1,0 +1,7 @@
+Item,Rule
+Frequency,"Monthly, effective the first Wednesday"
+Basis,Average international product price over the preceding month
+Currency,The average rand-dollar rate over the same period
+Petrol,"Price regulated at the pump, inland and coastal differ"
+Diesel,"Wholesale price regulated, retail price not"
+Slate levy,Recovers the gap between the regulated and actual price

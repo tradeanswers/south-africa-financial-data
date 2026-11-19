@@ -1,0 +1,6 @@
+Account,Spread,Commission,Typical minimum,Suits
+Standard,"Wider, 1.0 to 1.8 pips",None,"R1,000 to R5,000",Lower frequency trading
+Raw or ECN,0.0 to 0.3 pips,USD 6 to 7 per lot,"R5,000 to R20,000",Frequent trading
+Islamic,As the base account,Administration fee instead of swap,As the base,Swap-free requirement
+Professional,Raw,Negotiated,High,Large volume
+Demo,Simulated,Simulated,None,Learning the platform

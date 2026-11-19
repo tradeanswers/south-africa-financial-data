@@ -1,0 +1,6 @@
+Rate,What it measures,Status,Typical use
+ZARONIA,"Overnight unsecured deposits, actual transactions",The successor benchmark,New floating-rate contracts
+JIBAR,Interbank rates from quoted bids and offers,Being phased out,Legacy loans and derivatives
+SABOR,"Overnight interbank funding, volume weighted",Published daily,A reference measure
+Repo rate,The Reserve Bank's policy rate,Set by the MPC,"Policy, and the base for prime"
+Prime,Repo plus 3.5 percentage points,Bank convention,Retail lending

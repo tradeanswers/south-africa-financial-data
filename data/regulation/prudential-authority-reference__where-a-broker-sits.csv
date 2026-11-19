@@ -1,0 +1,6 @@
+Type,Prudential Authority,FSCA
+A bank offering trading,Yes,Yes
+An insurer,Yes,Yes
+An FSP that is not a bank,No,Yes
+A CFD broker,No,Yes
+A collective investment scheme manager,No,Yes

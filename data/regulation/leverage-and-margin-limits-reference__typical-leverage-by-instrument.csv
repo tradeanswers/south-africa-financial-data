@@ -1,0 +1,7 @@
+Instrument,Common leverage,Margin required,"Position on R10,000 margin"
+Major forex pairs,Up to 1:500,0.2%,"R5,000,000"
+Minor and exotic pairs,1:100 to 1:200,0.5% to 1%,"R1,000,000 to R2,000,000"
+Gold,Up to 1:200,0.5%,"R2,000,000"
+Indices,1:100 to 1:200,0.5% to 1%,"R1,000,000 to R2,000,000"
+Single shares,1:5 to 1:20,5% to 20%,"R50,000 to R200,000"
+Crypto,1:2 to 1:20,5% to 50%,"R20,000 to R200,000"
