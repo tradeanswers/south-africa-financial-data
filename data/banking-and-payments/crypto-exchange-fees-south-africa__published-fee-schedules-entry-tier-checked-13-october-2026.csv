@@ -1,0 +1,6 @@
+Exchange,Status,Maker / taker (order book),Instant buy / sell,Rand deposit,Rand withdrawal,Crypto withdrawal
+Luno,FSCA CASP,0.40% / 0.60% on crypto-rand pairs at the entry tier; USDT/ZAR −0.01% / 0.20%,1.0% in the app; about 2% from the portfolio screen; 3.9% by card,EFT free; instant deposit 1.4%,Standard EFT R8.50 as published; express R20 (free to Standard Bank),Network fee
+VALR,FSCA CASP,"0.18% / 0.35% on rand pairs at the entry tier, falling with 30-day volume to rebates; crypto-crypto 0% to 0.08% / 0.035% to 0.10%","Simple Buy and Sell, about 1.6% as reported","EFT, instant EFT and PayShap free",30 free rand withdrawals a month,Network fee; some assets free
+Binance,FIC-registered; not an FSCA CASP,0.10% / 0.10% spot (0.075% with BNB),Instant buy about 0.5%,ZAR on-ramp via Stitch 1.4%; cards and P2P,ZAR off-ramp R20,"Dynamic, by network"
+AltCoinTrader,FSCA CASP,0.10% / 0.75% as published in 2026 (previously 0% / 1%),Easy Buy at a higher rate,"EFT 0.5%, maximum R95","R16 + 0.5%, maximum R95",Network fee
+Ovex,FSCA CASP,0.25% / 0.25% flat; OTC desk for large trades,Quote-based,Free,Free as published,Network fee

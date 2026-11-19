@@ -1,0 +1,7 @@
+Component,Typical level,Visible on the statement
+"Exchange rate margin, major bank",1.5% to 3.0%,No
+"Exchange rate margin, specialist provider",0.3% to 1.0%,No
+SWIFT transfer fee,R300 to R600,Yes
+Correspondent bank fee,USD 15 to USD 40,"Sometimes, deducted in transit"
+Receiving bank fee,USD 0 to USD 25,At the far end
+Commission,0% to 0.5%,Yes

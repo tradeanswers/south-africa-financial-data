@@ -1,0 +1,37 @@
+table,source,checked,col1,col2,col3,col4,col5,col6
+Monthly instalment over 20 years at four rates,South African Reserve Bank: MPC decisions and the repo rate,2026-10-19,Loan amount,9.75% (prime minus 1),10.75% (prime),11.75% (prime plus 1),12.75% (prime plus 2),
+Monthly instalment over 20 years at four rates,,,"R500,000","R4,743","R5,076","R5,419","R5,769",
+Monthly instalment over 20 years at four rates,,,"R750,000","R7,114","R7,614","R8,128","R8,654",
+Monthly instalment over 20 years at four rates,,,"R1,000,000","R9,485","R10,152","R10,837","R11,538",
+Monthly instalment over 20 years at four rates,,,"R1,250,000","R11,856","R12,690","R13,546","R14,423",
+Monthly instalment over 20 years at four rates,,,"R1,500,000","R14,228","R15,228","R16,256","R17,307",
+Monthly instalment over 20 years at four rates,,,"R1,750,000","R16,599","R17,767","R18,965","R20,192",
+Monthly instalment over 20 years at four rates,,,"R2,000,000","R18,970","R20,305","R21,674","R23,076",
+Monthly instalment over 20 years at four rates,,,"R2,500,000","R23,713","R25,381","R27,093","R28,845",
+Monthly instalment over 20 years at four rates,,,"R3,000,000","R28,456","R30,457","R32,511","R34,614",
+Monthly instalment over 20 years at four rates,,,"R4,000,000","R37,941","R40,609","R43,348","R46,152",
+Monthly instalment over 20 years at four rates,,,"R5,000,000","R47,426","R50,761","R54,185","R57,691",
+"Instalment and total interest by term, at prime (10.75%)",South African Reserve Bank: MPC decisions and the repo rate,2026-10-19,Loan amount,20 years,25 years,30 years,"Total interest, 20 yrs","Total interest, 30 yrs"
+"Instalment and total interest by term, at prime (10.75%)",,,"R500,000","R5,076","R4,810","R4,667","R718,275","R1,180,266"
+"Instalment and total interest by term, at prime (10.75%)",,,"R750,000","R7,614","R7,216","R7,001","R1,077,412","R1,770,400"
+"Instalment and total interest by term, at prime (10.75%)",,,"R1,000,000","R10,152","R9,621","R9,335","R1,436,549","R2,360,533"
+"Instalment and total interest by term, at prime (10.75%)",,,"R1,250,000","R12,690","R12,026","R11,669","R1,795,687","R2,950,666"
+"Instalment and total interest by term, at prime (10.75%)",,,"R1,500,000","R15,228","R14,431","R14,002","R2,154,824","R3,540,799"
+"Instalment and total interest by term, at prime (10.75%)",,,"R1,750,000","R17,767","R16,837","R16,336","R2,513,962","R4,130,933"
+"Instalment and total interest by term, at prime (10.75%)",,,"R2,000,000","R20,305","R19,242","R18,670","R2,873,099","R4,721,066"
+"Instalment and total interest by term, at prime (10.75%)",,,"R2,500,000","R25,381","R24,052","R23,337","R3,591,374","R5,901,332"
+"Instalment and total interest by term, at prime (10.75%)",,,"R3,000,000","R30,457","R28,863","R28,004","R4,309,648","R7,081,599"
+"Instalment and total interest by term, at prime (10.75%)",,,"R4,000,000","R40,609","R38,484","R37,339","R5,746,198","R9,442,132"
+"Instalment and total interest by term, at prime (10.75%)",,,"R5,000,000","R50,761","R48,105","R46,674","R7,182,747","R11,802,665"
+"Gross monthly income banks typically require, at prime over 20 years",South African Reserve Bank: MPC decisions and the repo rate,2026-10-19,Loan amount,Instalment at prime,Gross income needed (30% rule),Gross income needed (25% rule),,
+"Gross monthly income banks typically require, at prime over 20 years",,,"R500,000","R5,076","R16,920","R20,305",,
+"Gross monthly income banks typically require, at prime over 20 years",,,"R750,000","R7,614","R25,381","R30,457",,
+"Gross monthly income banks typically require, at prime over 20 years",,,"R1,000,000","R10,152","R33,841","R40,609",,
+"Gross monthly income banks typically require, at prime over 20 years",,,"R1,250,000","R12,690","R42,301","R50,761",,
+"Gross monthly income banks typically require, at prime over 20 years",,,"R1,500,000","R15,228","R50,761","R60,914",,
+"Gross monthly income banks typically require, at prime over 20 years",,,"R1,750,000","R17,767","R59,222","R71,066",,
+"Gross monthly income banks typically require, at prime over 20 years",,,"R2,000,000","R20,305","R67,682","R81,218",,
+"Gross monthly income banks typically require, at prime over 20 years",,,"R2,500,000","R25,381","R84,602","R101,523",,
+"Gross monthly income banks typically require, at prime over 20 years",,,"R3,000,000","R30,457","R101,523","R121,827",,
+"Gross monthly income banks typically require, at prime over 20 years",,,"R4,000,000","R40,609","R135,364","R162,437",,
+"Gross monthly income banks typically require, at prime over 20 years",,,"R5,000,000","R50,761","R169,205","R203,046",,

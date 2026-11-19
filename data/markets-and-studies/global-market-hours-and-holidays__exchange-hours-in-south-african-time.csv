@@ -1,0 +1,8 @@
+Exchange,Opens,Closes,Note
+JSE,09:00,17:00,Closing auction from 16:50
+London,10:00 or 11:00,18:30 or 19:30,Shifts with British summer time
+Frankfurt,10:00 or 09:00,18:30 or 17:30,Shifts with central European time
+New York,15:30 or 16:30,22:00 or 23:00,Shifts with US daylight time
+Tokyo,02:00,08:00,Lunch break 04:30 to 05:30
+Hong Kong,03:30,10:00,Lunch break 06:00 to 07:00
+Sydney,02:00,08:00,No break

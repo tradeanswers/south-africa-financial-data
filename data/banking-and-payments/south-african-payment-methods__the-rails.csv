@@ -1,0 +1,8 @@
+Method,Speed,Typical cost,Limit
+PayShap,Under 60 seconds,Free to about R10,"R50,000 per transaction"
+Real Time Clearing,Under 60 seconds,R40 to R60,"Bank dependent, often R250,000"
+Ordinary EFT,1 to 2 business days,R1 to R15,High
+"Instant EFT, third party","Minutes, confirmation only",Merchant pays 1% to 3%,Bank dependent
+Card,Immediate authorisation,Merchant pays 1% to 3%,Card limit
+Debit order,On the agreed date,R2 to R15,Mandate dependent
+Cash deposit,Immediate,1% to 2% of the amount,"FICA reporting above R49,999.99"

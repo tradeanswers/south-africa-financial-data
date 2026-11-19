@@ -1,0 +1,6 @@
+Problem,Usual cause
+The amount arrived short,An intermediary deducted a fee under SHA or BEN
+The transfer is delayed,Compliance screening at a correspondent
+It was returned,A detail mismatched the beneficiary account
+It cannot be traced,"Ask for the SWIFT message reference, a UETR"
+Weekend or holiday delay,Correspondent banks keep their own calendars

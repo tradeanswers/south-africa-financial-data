@@ -1,0 +1,6 @@
+Step,Method
+Index investments,"R10,000 multiplied by the end index level over the start level"
+Offshore assets,Dollar return multiplied by the change in the rand-dollar rate
+Inflation,"Annual average CPI for 2000 to 2025 compounded, then January to September 2026 from the Stats SA index"
+Annual return,Compound annual growth over 26.75 years
+Exclusions,"Dividends, interest, costs and taxes"

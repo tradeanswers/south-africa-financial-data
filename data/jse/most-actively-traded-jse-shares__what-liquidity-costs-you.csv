@@ -1,0 +1,5 @@
+Liquidity,Typical spread,Practical effect
+Top 40 constituent,A few basis points,Fills close to the screen price
+Mid cap,Wider,Some slippage on size
+Small cap,Materially wider,The spread can exceed a day's move
+Illiquid counter,Very wide,Exiting may take days or move the price

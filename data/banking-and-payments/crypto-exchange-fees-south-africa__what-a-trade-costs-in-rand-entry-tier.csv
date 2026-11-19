@@ -1,0 +1,12 @@
+Route,Rate,"On R10,000","On R100,000"
+"Luno, exchange taker",0.60%,R60,R600
+"Luno, instant buy in app",1.0%,R100,"R1,000"
+"Luno, card buy",3.9%,R390,"R3,900"
+"VALR, exchange taker",0.35%,R35,R350
+"VALR, exchange maker",0.18%,R18,R180
+"VALR, Simple Buy",about 1.6%,about R160,"about R1,600"
+"Binance, spot",0.10%,R10,R100
+"Binance, ZAR deposit via Stitch",1.4%,R140,"R1,400"
+"AltCoinTrader, taker",0.75%,R75,R750
+"AltCoinTrader, maker",0.10%,R10,R100
+"Ovex, exchange",0.25%,R25,R250

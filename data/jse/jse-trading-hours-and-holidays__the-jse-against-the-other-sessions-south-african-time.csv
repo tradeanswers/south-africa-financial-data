@@ -1,0 +1,6 @@
+Market,Opens,Closes,Overlaps the JSE
+JSE,09:00,17:00,—
+London,10:00 or 11:00,18:30 or 19:30,Most of the day
+New York,15:30 or 16:30,22:00 or 23:00,The final ninety minutes
+Tokyo,02:00 or 03:00,08:00 or 09:00,Just before the open
+Sydney,00:00 or 01:00,07:00 or 08:00,No

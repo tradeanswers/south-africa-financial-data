@@ -1,0 +1,7 @@
+Step,What happens
+Your bank debits your account,"In rand, at the rate it quoted you"
+It sends a SWIFT message,"An instruction, not the funds"
+Correspondent bank receives it,A bank holding accounts in the target currency
+It may deduct a fee,"USD 15 to USD 40, in transit"
+Further correspondents may follow,Each may deduct
+The beneficiary bank credits the account,Possibly less its own fee

@@ -1,0 +1,6 @@
+Day,Date,What happens
+T,Monday,Trade executed
+T+1,Tuesday,Confirmation and matching
+T+2,Wednesday,Commitment
+T+3,Thursday,Settlement; shares and cash move
+Before a long weekend,Shifts later,Business days exclude holidays

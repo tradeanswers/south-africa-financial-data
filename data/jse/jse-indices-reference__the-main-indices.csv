@@ -1,0 +1,8 @@
+Index,Code,What it measures
+All Share,"ALSI, J203",Substantially all eligible listed companies by market capitalisation
+Top 40,J200,The forty largest by market capitalisation
+SWIX All Share,J403,Weighted by shares held on the South African register
+Top 40 SWIX,J400,The Top 40 on the same SWIX weighting
+Capped SWIX,J433,SWIX with a cap on any single constituent
+Mid Cap,J201,The next tier below the Top 40
+Small Cap,J202,Below the Mid Cap

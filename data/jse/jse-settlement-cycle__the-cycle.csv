@@ -1,0 +1,5 @@
+Day,What happens
+T,Trade executed on the exchange
+T+1,Confirmation and matching between the parties
+T+2,Commitment; the obligation is locked in
+T+3,Settlement; shares and money change hands through Strate

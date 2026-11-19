@@ -1,0 +1,6 @@
+Route,Approximate cost,Speed
+"Card, local currency chosen",R440 to R640,Immediate
+"Card, dynamic conversion accepted","R1,040 to R2,040",Immediate
+Bank transfer,R750 to R950,2 to 5 days
+Specialist provider,R350 to R450,1 to 2 days
+"Premium card, fee waived",R0 to R200,Immediate

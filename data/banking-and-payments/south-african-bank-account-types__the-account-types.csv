@@ -1,0 +1,7 @@
+Account,Holds,Who may open it,Main use
+Transactional,Rand,Residents and non-residents,Day to day
+Savings or notice,Rand,Residents and non-residents,"Interest, limited access"
+Customer foreign currency,Foreign currency,"Residents, with conditions",Holding dollars without converting
+Non-resident,Rand,Non-residents,Freely transferable abroad
+Blocked,Rand,"Former residents, historic",Largely replaced by the AIT process
+Business,Rand or foreign currency,Registered entities,A trading company

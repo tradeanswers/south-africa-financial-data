@@ -1,0 +1,6 @@
+Item,Rule
+What it is,A rand-bank account denominated in a foreign currency
+Who may hold one,"Residents, subject to the conditions in the Currency and Exchanges Manual"
+What it avoids,Converting back to rand and out again on every round trip
+When it helps,Regular offshore income or regular trading in dollars
+Limits,"Funds must have a permitted source, and the account is reported"

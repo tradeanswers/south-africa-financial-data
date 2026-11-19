@@ -1,0 +1,7 @@
+Term,Meaning
+Clean price,Price excluding accrued interest
+Dirty price,"Clean price plus accrued interest, what you pay"
+Coupon,"The fixed annual rate, paid semi-annually"
+Yield to maturity,The return if held to maturity at that price
+Modified duration,How much the price moves for a 1% yield change
+Books closed,The period before a coupon when the register is fixed

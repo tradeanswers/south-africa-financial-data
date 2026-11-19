@@ -1,0 +1,4 @@
+Code,Meaning,Effect
+OUR,The sender pays all charges,"The recipient gets the full amount, you pay more"
+SHA,Shared,"You pay your bank, intermediaries deduct from the amount"
+BEN,The beneficiary pays,Everything is deducted from the amount sent

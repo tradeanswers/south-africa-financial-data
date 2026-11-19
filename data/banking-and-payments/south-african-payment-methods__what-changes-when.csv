@@ -1,0 +1,6 @@
+Situation,Effect
+Payment made after the daily cut-off,Processes the next business day
+Payment made on a Friday afternoon,Often only clears on Monday or Tuesday
+Public holiday,Not a business day for clearing
+Payment to a different bank,"Slower on ordinary EFT, same on PayShap"
+First payment to a new beneficiary,Some banks hold it for verification

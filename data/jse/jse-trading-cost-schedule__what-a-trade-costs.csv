@@ -1,0 +1,6 @@
+Charge,Rate,Paid on
+Securities transfer tax,0.25% of the value,Purchases only
+Brokerage,"Set by the broker, with a minimum",Both sides
+Strate settlement,"Per transaction, usually with a minimum and a cap",Both sides
+Investor protection levy,0.0002% of the value,Both sides
+VAT,"15% on brokerage and Strate, not on STT",Both sides

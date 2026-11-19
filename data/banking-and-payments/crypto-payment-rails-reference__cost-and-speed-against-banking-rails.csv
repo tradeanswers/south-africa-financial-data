@@ -1,0 +1,6 @@
+Route,Typical cost,Typical speed,Reversible
+Bank SWIFT transfer,1.5% to 3% plus fees,2 to 5 days,No
+Specialist forex provider,0.3% to 1%,1 to 2 days,No
+Stablecoin on a low-fee network,Under USD 1,Minutes,No
+Bitcoin,Network dependent,10 to 60 minutes,No
+Exchange withdrawal fee,Varies by asset and network,Minutes,No

@@ -1,0 +1,7 @@
+Method,Reversible,Time limit,Decided by
+Credit card,"Yes, by chargeback",Usually 120 days,The card scheme
+Debit card,Sometimes,Usually 120 days,The card scheme
+EFT,No,None,"Nobody, it is a push payment"
+Debit order,"Yes, by dispute","40 days, or 1 day for DebiCheck",Your bank
+PayShap or RTC,No,None,Nobody
+Crypto,No,None,Nobody
